@@ -11,6 +11,7 @@
 <h3 align="center">
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest">⬇️ &nbsp;JETZT KOSTENLOS SPIELEN&nbsp; ⬇️</a>
 </h3>
+<p align="center"><b>Ohne Download:</b> <a href="https://beydo7.github.io/rotfall-releases/play/">▶ Direkt im Browser spielen</a> (Chrome oder Edge)</p>
 
 <p align="center">
   <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=1-fehler.yml">🐛 Fehler melden</a> &nbsp;·&nbsp;
@@ -57,6 +58,14 @@ Dazu kommt alles, was eine gute Zombie-Nacht braucht: Trümmer, die du freiräum
 **☢️ Kessel 9** – Die Forschungsstation, in der alles begann. Laborkomplex, Meteorkrater mit Hubschrauberwrack, Kaserne und Fahrzeugdepot in einem bewaldeten Tal. Mondnacht, Nebel, Regen oder Rotium-Sturm.
 
 **🐺 Wolfsgrund** – *Freischaltbar ab Welle 8.* Das Rotium hat das Tal verlassen. Ein verschneites Bergdorf mit Sägewerk, Kirche und Friedhof, gefrorenem See und einem kleinen Bahnhof. Größer, kälter, dunkler. Und die Kirchenglocke läutet nachts von allein.
+
+**🪖 Fort Granit** – *Neu in v0.14.* Die Armee sollte Kessel 9 abriegeln – jetzt steht ihre Basis leer, auf einem Felsplateau hoch über dem Meer. Hangar mit Hubschraubern, Panzerdepot, Haupttor und Kaserne. Abenddämmerung statt Nacht, über allem kreist ein Hubschrauber.
+
+<img src="media/fort-granit.jpg" alt="Fort Granit: Hangar und Vorfeld" width="100%">
+
+**🏚️ Grauheim** – *Neu in v0.14, freischaltbar ab Welle 6.* Die tote Stadt. Grand Hotel mit Leuchtschrift, Kino, Hauptstraße mit Tankstelle, Stadtpark und ein Marktplatz voller Barrikaden – brennende Ruinen und Autowracks über der Küste.
+
+<img src="media/grauheim.jpg" alt="Grauheim: der Marktplatz" width="100%">
 
 <p align="center">
   <img src="media/menu.jpg" alt="Hauptmenü" width="100%">
@@ -120,7 +129,7 @@ Im **Lexikon** im Hauptmenü findest du jede Waffe mit allen Werten pro Stufe, d
 3. **`ROTFALL.exe`** starten
 4. Warnt Windows („Der Computer wurde durch Windows geschützt“)? → **„Weitere Informationen“ → „Trotzdem ausführen“**. Das Spiel ist einfach noch nicht signiert.
 
-**Browser:** Zip entpacken und `ROTFALL.html` in Chrome oder Edge öffnen.
+**Browser:** Zip entpacken und `ROTFALL.html` in Chrome oder Edge öffnen – oder ganz ohne Download **[direkt im Browser spielen](https://beydo7.github.io/rotfall-releases/play/)**. (Der Fortschritt im Browser ist getrennt von der Windows-Version.)
 
 **Update:** Neue Zip herunterladen, entpacken, fertig – **dein Fortschritt bleibt erhalten.**
 
