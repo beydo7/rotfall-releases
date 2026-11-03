@@ -67,6 +67,14 @@ Dazu kommt alles, was eine gute Zombie-Nacht braucht: Trümmer, die du freiräum
 
 <img src="media/grauheim.jpg" alt="Grauheim: der Marktplatz" width="100%">
 
+**🌲 Seuchenwald** – *Neu in v0.15.* Eine Etappen-Karte: Vom Waldlager über die Lichtung am Teich bis zur Funkstation kämpfst du dich Stück für Stück vor – oder du wagst den Abzweig ins verseuchte Moor. Quarantänezäune, Bunker im Fels, giftige Pfützen.
+
+<img src="media/seuchenwald.jpg" alt="Seuchenwald: das Moor" width="100%">
+
+**☢️ Atomwüste** – *Neu in v0.15, freischaltbar ab Welle 10.* Eine Ring-Karte um einen Tafelberg mit dampfendem Kühlturm: Kontrollposten, Absturzstelle mit Flugzeugwrack, Reaktor und Testkrater. Sind alle Tore offen, läufst du einmal im Kreis – die Horde immer hinter dir.
+
+<img src="media/atomwueste.jpg" alt="Atomwüste: die Absturzstelle" width="100%">
+
 <p align="center">
   <img src="media/menu.jpg" alt="Hauptmenü" width="100%">
 </p>
