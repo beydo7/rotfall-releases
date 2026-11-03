@@ -1,0 +1,49 @@
+name: 🐛 Fehler melden
+description: Etwas funktioniert nicht, sieht kaputt aus oder das Spiel stürzt ab.
+title: "[Fehler] "
+labels: ["fehler"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du hilfst, ROTFALL besser zu machen! 🧟
+        **Tipp:** Drück im Spiel **F8** (oder im Pausemenü „Fehler melden“). Das kopiert einen Fehlerbericht in die Zwischenablage – einfach unten einfügen.
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Beschreib kurz, was du gemacht hast und was dann schiefging.
+      placeholder: "Ich habe in Welle 7 die Wunderkiste geöffnet, dann wurde der Bildschirm schwarz …"
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hättest du erwartet?
+      placeholder: "Dass ich eine Waffe bekomme 🙂"
+  - type: textarea
+    id: bericht
+    attributes:
+      label: Fehlerbericht (F8)
+      description: Im Spiel F8 drücken und hier mit Strg+V einfügen.
+      render: text
+  - type: dropdown
+    id: version
+    attributes:
+      label: Welche Version spielst du?
+      options:
+        - Windows (ROTFALL.exe)
+        - Browser (ROTFALL.html)
+    validations:
+      required: true
+  - type: dropdown
+    id: oft
+    attributes:
+      label: Wie oft passiert das?
+      options:
+        - Immer
+        - Manchmal
+        - Nur einmal
+  - type: markdown
+    attributes:
+      value: "📸 **Screenshots helfen sehr!** Einfach mit `Win + Shift + S` aufnehmen und hier hineinziehen oder einfügen."

@@ -1,0 +1,41 @@
+name: 💡 Idee oder Feedback
+description: Ein Vorschlag, eine Idee oder einfach, was dir gefällt oder nicht gefällt.
+title: "[Idee] "
+labels: ["idee"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Deine Idee
+      description: Neue Waffe, neuer Charakter, Balancing, Karte, Musik … alles willkommen.
+      placeholder: "Es wäre cool, wenn …"
+    validations:
+      required: true
+  - type: dropdown
+    id: bereich
+    attributes:
+      label: Worum geht es?
+      options:
+        - Gameplay & Balancing (zu leicht / zu schwer)
+        - Waffen & Ausrüstung
+        - Charaktere
+        - Gegner & Bosse
+        - Karten
+        - Grafik
+        - Sound & Musik
+        - Menüs & Bedienung
+        - Sonstiges
+  - type: dropdown
+    id: spass
+    attributes:
+      label: Wie viel Spaß macht dir ROTFALL gerade?
+      options:
+        - "🔥 Richtig viel"
+        - "🙂 Macht Spaß"
+        - "😐 Geht so"
+        - "😕 Eher wenig"
+  - type: input
+    id: welle
+    attributes:
+      label: Wie weit bist du schon gekommen? (beste Welle)
+      placeholder: "z. B. Welle 12 in Kessel 9"

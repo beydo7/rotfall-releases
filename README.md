@@ -12,6 +12,11 @@
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest">⬇️ &nbsp;JETZT KOSTENLOS SPIELEN&nbsp; ⬇️</a>
 </h3>
 
+<p align="center">
+  <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=1-fehler.yml">🐛 Fehler melden</a> &nbsp;·&nbsp;
+  <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=2-idee.yml">💡 Idee einreichen</a>
+</p>
+
 ---
 
 > **Herbst 1968.** Ein Meteorit schlägt in den Bergen nahe der geheimen Forschungsstation **Kessel 9** ein.
@@ -128,6 +133,7 @@ Im **Lexikon** im Hauptmenü findest du jede Waffe mit allen Werten pro Stufe, d
 | `Leertaste` | Springen | | Mausrad | Zoom |
 | `Shift` | Ausweichen (kurz unverwundbar) | | `ESC` | Pause & Optionen |
 | `Q` / Rechtsklick | Spezialfähigkeit | | `F11` | Vollbild |
+| | | | `F8` | Fehlerbericht kopieren |
 
 <p align="center">
   <img src="media/akte.jpg" alt="Die Akte: Projekt Rotfall" width="70%">
@@ -156,7 +162,11 @@ Nein. Charaktere, Skins, Splitter, Erfolge und Meisterschaft bleiben erhalten.
 <details>
 <summary><b>Ich habe einen Fehler gefunden / eine Idee!</b></summary>
 
-Sehr gern – sag Pascal direkt Bescheid. Am besten mit Screenshot und kurz, was du gerade gemacht hast.
+Super – genau dafür ist der Playtest da! Klick oben auf **„Issues“ → „New issue“** und wähle **🐛 Fehler melden** oder **💡 Idee oder Feedback**. Ein GitHub-Konto brauchst du dafür (kostenlos).
+
+Bei Fehlern: Drück im Spiel **F8** – das kopiert einen Fehlerbericht in die Zwischenablage, den du einfach ins Formular einfügst. Screenshots (`Win + Shift + S`) helfen sehr.
+
+Kein GitHub-Konto? Dann schick Pascal den F8-Bericht einfach direkt.
 </details>
 
 ---
