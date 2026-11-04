@@ -22,7 +22,7 @@
 <p align="center"><sub><b>Kostenlos</b> &nbsp;·&nbsp; keine Anmeldung &nbsp;·&nbsp; dein Fortschritt bleibt bei Updates erhalten</sub></p>
 
 > [!TIP]
-> **Neu:** 📅 [Tagesbefehl](#tagesbefehl) für alle gleich · 🚁 Evakuierung nach Welle 20 · 🎮 Controller-Steuerung · 🧟 [ein eigener Zombie pro Karte](#kartenzombies) · 💥 Krits, Kill-Serien und mehr Wumms
+> **Neu in v1.1:** 🔥 [Bedrohungsstufen 1–10](#bedrohung) · 🔒 [Angebote sperren & Waffenvergleich](#komfort) · 📊 Werte-Übersicht (<kbd>Tab</kbd> halten) · ⌨️ [alle Tasten frei belegbar](#steuerung) · 📁 [Die Akte als Dossier mit 15 Blättern](#akte) · 🧱 keine unsichtbaren Wände mehr
 
 <br>
 
@@ -36,6 +36,12 @@
 Drei Wochen später bricht die Eindämmung zusammen. Die Tore sind verriegelt, der Strom ist weg. Dann knackt das alte Funkgerät am Sendemast, und eine Stimme meldet sich, die sich **Echo** nennt.
 
 Woher Echo das alles weiß? Darüber denkst du später nach. **Jetzt kommen sie.**
+
+<a id="akte"></a>
+<p align="center">
+  <img src="media/readme/shot-dossier.jpg" alt="Die Akte: Erlass zur Sperrzone Seuchenwald" width="100%">
+  <br><sub><i>Die ganze Vorgeschichte findest du im Hauptmenü unter <b>Die Akte</b>: Geheimakten, Zeitungsartikel, Funkprotokolle, Laborberichte und das ROT-NET-Archiv. Weitere Blätter schaltest du durch deinen Fortschritt frei.</i></sub>
+</p>
 
 <p align="center">
   <img src="media/readme/shot-fight.jpg" alt="Im Einsatz: das Waldlager im Seuchenwald" width="100%">
@@ -119,6 +125,32 @@ Kritische Treffer leuchten golden, Elite-Zombies explodieren mit eigenem Effekt,
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+### 🔥 Bedrohungsstufen
+Zu leicht geworden? Nach deinem ersten Sieg drehst du die **Bedrohung von 1 bis 10** hoch: zähere, schnellere Zombies, mehr Elite, teurerer Nachschub. Dafür gibt es mehr Rotium-Splitter.
+
+</td>
+<td valign="top">
+
+### 🖋️ Grusel-Comic-Look
+Tuschekonturen, gestufte Schatten und Rasterpunkte wie in einem gedruckten Heft. Zombies mit Augenhöhlen, Zähnen und Blutflecken. Abschaltbar in den Optionen.
+
+</td>
+</tr>
+</table>
+
+<a id="komfort"></a>
+<table>
+<tr>
+<td width="58%" valign="top"><img src="media/readme/shot-shop.jpg" alt="Nachschub mit Schloss und Waffenvergleich"></td>
+<td width="42%" valign="top"><img src="media/readme/shot-stats.jpg" alt="Werte-Übersicht"></td>
+</tr>
+<tr>
+<td valign="top"><sub><b>Nachschub:</b> Mit dem 🔒 Schloss legst du dir ein Angebot zurück, es bleibt beim Neu-Würfeln und in der nächsten Runde liegen. Grüne Zahlen zeigen, was sich gegenüber deiner Stufe verbessert. <kbd>Leertaste</kbd> startet die nächste Welle.</sub></td>
+<td valign="top"><sub><b>Werte-Übersicht:</b> <kbd>Tab</kbd> gedrückt halten zeigt alle Werte, Waffen und Perks auf einen Blick.</sub></td>
+</tr>
 </table>
 
 <details>
@@ -187,9 +219,10 @@ Dein Tagesbestwert wird gespeichert. Mit **„Ergebnis kopieren“** landet er a
 </tr>
 </table>
 
+<a id="bedrohung"></a>
 <p align="center">
-  <img src="media/readme/shot-levels.jpg" alt="Die Kartenauswahl" width="85%">
-  <br><sub><i>Die Kartenauswahl: Wolfsgrund schaltest du ab Welle 8 frei, Grauheim ab Welle 6, die Atomwüste ab Welle 10.</i></sub>
+  <img src="media/readme/shot-levels.jpg" alt="Die Kartenauswahl mit Bedrohungsstufe" width="85%">
+  <br><sub><i>Die Kartenauswahl: Wolfsgrund schaltest du ab Welle 8 frei, Grauheim ab Welle 6, die Atomwüste ab Welle 10. Unten wählst du die <b>Bedrohungsstufe</b>, jeder Sieg schaltet die nächste frei.</i></sub>
 </p>
 
 <br>
@@ -259,7 +292,7 @@ Im **Lexikon** im Hauptmenü findest du jede Waffe mit Wertebalken für jede Stu
 <br>
 <p align="center">
   <img src="media/readme/shot-menu.jpg" alt="Hauptmenü" width="100%"><br><br>
-  <img src="media/akte.jpg" alt="Die Akte: Projekt Rotfall" width="70%">
+  <img src="media/readme/shot-dossier2.jpg" alt="Die Akte: Grauheimer Tageblatt" width="100%">
 </p>
 </details>
 
@@ -295,20 +328,22 @@ Auf der [Download-Seite](https://github.com/beydo7/rotfall-releases/releases/lat
 
 <p align="center"><img src="media/readme/h09.png" alt="Akte 09 – Dienstanweisung" width="100%"></p>
 
+<a id="steuerung"></a>
 <div align="center">
 
-| Taste | Aktion | | Taste | Aktion |
-|:-:|---|---|:-:|---|
 | Aktion | ⌨️ Tastatur & Maus | 🎮 Controller |
 |---|:-:|:-:|
 | Laufen | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | linker Stick |
 | Kamera drehen | 🖱️ Maus | rechter Stick |
 | Springen | <kbd>Leertaste</kbd> | <kbd>A</kbd> / <kbd>✕</kbd> |
-| Ausweichen (kurz unverwundbar) | <kbd>Shift</kbd> | <kbd>B</kbd> / <kbd>◯</kbd> oder <kbd>LB</kbd> |
+| Ausweichen (kurz unverwundbar) | <kbd>Shift</kbd> | <kbd>B</kbd> / <kbd>◯</kbd> |
 | Benutzen (Trümmer, Automaten, Kiste …) | <kbd>E</kbd> | <kbd>X</kbd> / <kbd>▢</kbd> |
-| Spezialfähigkeit | <kbd>Q</kbd> / Rechtsklick | <kbd>Y</kbd> / <kbd>△</kbd> oder <kbd>RB</kbd> |
+| Spezialfähigkeit | <kbd>Q</kbd> / Rechtsklick | <kbd>Y</kbd> / <kbd>△</kbd> |
+| Werte-Übersicht (halten) | <kbd>Tab</kbd> | <kbd>L3</kbd> |
+| Nächste Welle (im Nachschub) | <kbd>Leertaste</kbd> | <kbd>Y</kbd> / <kbd>△</kbd> |
 | Zoom | 🖱️ Mausrad | Trigger |
-| Pause & Optionen | <kbd>Esc</kbd> | <kbd>Start</kbd> |
+| Pause | <kbd>P</kbd> / <kbd>Esc</kbd> | <kbd>Start</kbd> |
+| Ton an/aus | <kbd>M</kbd> | |
 | Upgrade wählen | <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> | Steuerkreuz + <kbd>A</kbd> |
 | Vollbild | <kbd>F11</kbd> | |
 | Fehlerbericht kopieren | <kbd>F8</kbd> | |
@@ -316,6 +351,14 @@ Auf der [Download-Seite](https://github.com/beydo7/rotfall-releases/releases/lat
 In allen Menüs: Steuerkreuz oder Stick zum Auswählen, <kbd>A</kbd> bestätigen, <kbd>B</kbd> zurück, <kbd>LB</kbd>/<kbd>RB</kbd> wechselt Reiter.
 
 </div>
+
+<img src="media/readme/shot-keys.jpg" alt="Optionen: Tastenbelegung" width="48%" align="right">
+
+**Lieber andere Tasten?** Unter **Optionen → Tastenbelegung** legst du jede Aktion für Tastatur und Controller selbst fest. Doppelt belegte Tasten tauschen automatisch.
+
+Die Optionen sind in Reiter aufgeteilt: **Grafik, Anzeige, Audio, Kamera und Tastenbelegung**. Neu dabei sind unter anderem Render-Auflösung, Lautstärke für Effekte und Umgebung, Ton im Hintergrund, Controller-Empfindlichkeit und das Ausblenden von Tipps, Pfeilen und Kill-Serie.
+
+<br clear="right">
 
 <br>
 
@@ -325,7 +368,7 @@ In allen Menüs: Steuerkreuz oder Stick zum Auswählen, <kbd>A</kbd> bestätigen
 <summary><b>💻 Läuft das Spiel auf meinem PC?</b></summary>
 <br>
 
-Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, stell unter **Optionen → Grafik** die **Schatten** auf „Mittel“ oder „Aus“.
+Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, stell unter **Optionen → Grafik** die **Schatten** auf „Mittel“ oder „Aus“ oder senke die **Render-Auflösung**.
 </details>
 
 <details>
