@@ -11,6 +11,7 @@
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/downloads/beydo7/rotfall-releases/total?label=DOWNLOADS&style=for-the-badge&color=d9a441&labelColor=1a1410" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/WINDOWS%20%7C%20BROWSER-5a4a3a?style=for-the-badge&labelColor=1a1410&logo=windows&logoColor=e8dcc0" alt="Plattform">
   <img src="https://img.shields.io/badge/8%20SPRACHEN-3a5a7a?style=for-the-badge&labelColor=1a1410&logo=googletranslate&logoColor=e8dcc0" alt="8 Sprachen">
+  <img src="https://img.shields.io/badge/CONTROLLER-6a4a7a?style=for-the-badge&labelColor=1a1410&logo=steamdeck&logoColor=e8dcc0" alt="Controller-Unterstützung">
   <img src="https://img.shields.io/badge/PLAYTEST-5a7a3a?style=for-the-badge&labelColor=1a1410" alt="Playtest">
 </p>
 
@@ -19,6 +20,9 @@
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="media/readme/btn-win.png" alt="Windows-Version laden" height="56"></a>
 </p>
 <p align="center"><sub><b>Kostenlos</b> &nbsp;·&nbsp; keine Anmeldung &nbsp;·&nbsp; dein Fortschritt bleibt bei Updates erhalten</sub></p>
+
+> [!TIP]
+> **Neu:** 📅 [Tagesbefehl](#tagesbefehl) für alle gleich · 🚁 Evakuierung nach Welle 20 · 🎮 Controller-Steuerung · 🧟 [ein eigener Zombie pro Karte](#kartenzombies) · 💥 Krits, Kill-Serien und mehr Wumms
 
 <br>
 
@@ -101,6 +105,20 @@ Wetter, Wäldchen und Deckung werden bei jedem Einsatz neu gewürfelt. Kein Durc
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+### 🚁 Die Evakuierung
+Welle 20 geschafft? Noch nicht ganz. Der Helikopter landet, und du musst **30 Sekunden die Landezone halten**, während die Horde nicht aufhört.
+
+</td>
+<td valign="top">
+
+### 💥 Treffer mit Wumms
+Kritische Treffer leuchten golden, Elite-Zombies explodieren mit eigenem Effekt, und ab 10 schnellen Kills zählt deine **Kill-Serie** mit.
+
+</td>
+</tr>
 </table>
 
 <details>
@@ -115,14 +133,32 @@ flowchart LR
     B --> D[🛒 Nachschub<br/>nach jeder Welle]
     D --> E[🚪 Trümmer räumen<br/>⚙️ Generatoren starten<br/>🔥 Waffe schmieden]
     E --> A
-    A -. Welle 20 .-> F([🚁 Evakuierung<br/>oder Endlos-Modus])
+    A -. Welle 20 .-> F[🚁 Landezone<br/>30 s halten]
+    F --> G([Evakuieren<br/>oder Endlos-Modus])
 ```
 
 </details>
 
 <br>
 
-<p align="center"><img src="media/readme/h03.png" alt="Akte 03 – Einsatzgebiete" width="100%"></p>
+<a id="tagesbefehl"></a>
+<p align="center"><img src="media/readme/h03.png" alt="Akte 03 – Tagesbefehl" width="100%"></p>
+
+<img src="media/readme/shot-daily.jpg" alt="Der Tagesbefehl" width="52%" align="right">
+
+Jeden Tag gibt Echo einen neuen Befehl aus, und **für alle ist er gleich**:
+
+- 🗺️ dieselbe Karte, dieselbe Welt, dasselbe Wetter
+- 🎖️ derselbe Charakter (auch wenn du ihn noch nicht freigeschaltet hast)
+- ➕ ein **Bonus**, zum Beispiel eine schon veredelte Startwaffe
+- ➖ ein **Haken**, zum Beispiel einer von Echos Pakten oder die Horde mit 150 % Bedrohung
+
+Dein Tagesbestwert wird gespeichert. Mit **„Ergebnis kopieren“** landet er als kurzer Text in der Zwischenablage. Ab in den Chat und vergleichen, wer am weitesten kommt!
+
+<br clear="right">
+<br>
+
+<p align="center"><img src="media/readme/h04.png" alt="Akte 04 – Einsatzgebiete" width="100%"></p>
 
 <table>
 <tr>
@@ -151,9 +187,14 @@ flowchart LR
 </tr>
 </table>
 
+<p align="center">
+  <img src="media/readme/shot-levels.jpg" alt="Die Kartenauswahl" width="85%">
+  <br><sub><i>Die Kartenauswahl: Wolfsgrund schaltest du ab Welle 8 frei, Grauheim ab Welle 6, die Atomwüste ab Welle 10.</i></sub>
+</p>
+
 <br>
 
-<p align="center"><img src="media/readme/h04.png" alt="Akte 04 – Einsatzkräfte" width="100%"></p>
+<p align="center"><img src="media/readme/h05.png" alt="Akte 05 – Einsatzkräfte" width="100%"></p>
 
 <p align="center">
   <img src="media/readme/shot-akten.jpg" alt="Personalakten: Charakterauswahl" width="85%">
@@ -176,7 +217,7 @@ Zehn Charaktere, jeder mit eigener Startwaffe, eigenen Werten und einer **Spezia
 
 <br>
 
-<p align="center"><img src="media/readme/h05.png" alt="Akte 05 – Feldakten" width="100%"></p>
+<p align="center"><img src="media/readme/h06.png" alt="Akte 06 – Feldakten" width="100%"></p>
 
 <img src="media/readme/shot-feld.jpg" alt="Feldakten" width="46%" align="right">
 
@@ -193,30 +234,38 @@ Dann sind da noch **der Schlachter**, **Oberst Krüger** und *er*: **der Erstgeb
 Alles, was du über sie herausfindest, landet in den **Feldakten**, mit Echos ganz persönlichen Notizen.
 
 <br clear="right">
+
+<a id="kartenzombies"></a>
+<p align="center">
+  <img src="media/readme/zombies.jpg" alt="Jede Karte hat ihren eigenen Zombie" width="100%">
+</p>
+
 <br>
 
-<p align="center"><img src="media/readme/h06.png" alt="Akte 06 – Arsenal" width="100%"></p>
+<p align="center"><img src="media/readme/h07.png" alt="Akte 07 – Arsenal" width="100%"></p>
 
 <p align="center">
   <img src="media/readme/arsenal.jpg" alt="Alle 17 Waffen, normal und veredelt" width="100%">
 </p>
 
-Im **Lexikon** im Hauptmenü findest du jede Waffe mit allen Werten pro Stufe, dazu Perks, Power-Ups, Pakte und alles Wissenswerte über Kessel 9.
+Im **Lexikon** im Hauptmenü findest du jede Waffe mit Wertebalken für jede Stufe und veredelt, dazu Perks, Power-Ups, Pakte und alles Wissenswerte. Mit Suche.
+
+<p align="center">
+  <img src="media/readme/shot-lex.jpg" alt="Das Lexikon" width="85%">
+</p>
 
 <details>
-<summary><b>📸 Weitere Bilder</b> <sub>(Hauptmenü, Lexikon, Einsatzgebiete, Akte)</sub></summary>
+<summary><b>📸 Weitere Bilder</b> <sub>(Hauptmenü, Akte)</sub></summary>
 <br>
 <p align="center">
   <img src="media/readme/shot-menu.jpg" alt="Hauptmenü" width="100%"><br><br>
-  <img src="media/readme/shot-lex.jpg" alt="Lexikon" width="100%"><br><br>
-  <img src="media/readme/shot-gebiete.jpg" alt="Einsatzgebiete" width="60%">
-  <img src="media/akte.jpg" alt="Die Akte: Projekt Rotfall" width="38%">
+  <img src="media/akte.jpg" alt="Die Akte: Projekt Rotfall" width="70%">
 </p>
 </details>
 
 <br>
 
-<p align="center"><img src="media/readme/h07.png" alt="Akte 07 – Ausrüstung anfordern" width="100%"></p>
+<p align="center"><img src="media/readme/h08.png" alt="Akte 08 – Ausrüstung anfordern" width="100%"></p>
 
 <p align="center">
   <a href="https://beydo7.github.io/rotfall-releases/play/"><img src="media/readme/btn-play.png" alt="Im Browser spielen" height="56"></a>&nbsp;&nbsp;
@@ -244,24 +293,33 @@ Auf der [Download-Seite](https://github.com/beydo7/rotfall-releases/releases/lat
 
 <br>
 
-<p align="center"><img src="media/readme/h08.png" alt="Akte 08 – Dienstanweisung" width="100%"></p>
+<p align="center"><img src="media/readme/h09.png" alt="Akte 09 – Dienstanweisung" width="100%"></p>
 
 <div align="center">
 
 | Taste | Aktion | | Taste | Aktion |
 |:-:|---|---|:-:|---|
-| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | Laufen | | <kbd>E</kbd> | Benutzen (Trümmer, Automaten, Kiste …) |
-| 🖱️ Maus | Kamera drehen | | <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> | Upgrade wählen |
-| <kbd>Leertaste</kbd> | Springen | | 🖱️ Mausrad | Zoom |
-| <kbd>Shift</kbd> | Ausweichen (kurz unverwundbar) | | <kbd>Esc</kbd> | Pause & Optionen |
-| <kbd>Q</kbd> / Rechtsklick | Spezialfähigkeit | | <kbd>F11</kbd> | Vollbild |
-| | | | <kbd>F8</kbd> | Fehlerbericht kopieren |
+| Aktion | ⌨️ Tastatur & Maus | 🎮 Controller |
+|---|:-:|:-:|
+| Laufen | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | linker Stick |
+| Kamera drehen | 🖱️ Maus | rechter Stick |
+| Springen | <kbd>Leertaste</kbd> | <kbd>A</kbd> / <kbd>✕</kbd> |
+| Ausweichen (kurz unverwundbar) | <kbd>Shift</kbd> | <kbd>B</kbd> / <kbd>◯</kbd> oder <kbd>LB</kbd> |
+| Benutzen (Trümmer, Automaten, Kiste …) | <kbd>E</kbd> | <kbd>X</kbd> / <kbd>▢</kbd> |
+| Spezialfähigkeit | <kbd>Q</kbd> / Rechtsklick | <kbd>Y</kbd> / <kbd>△</kbd> oder <kbd>RB</kbd> |
+| Zoom | 🖱️ Mausrad | Trigger |
+| Pause & Optionen | <kbd>Esc</kbd> | <kbd>Start</kbd> |
+| Upgrade wählen | <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> | Steuerkreuz + <kbd>A</kbd> |
+| Vollbild | <kbd>F11</kbd> | |
+| Fehlerbericht kopieren | <kbd>F8</kbd> | |
+
+In allen Menüs: Steuerkreuz oder Stick zum Auswählen, <kbd>A</kbd> bestätigen, <kbd>B</kbd> zurück, <kbd>LB</kbd>/<kbd>RB</kbd> wechselt Reiter.
 
 </div>
 
 <br>
 
-<p align="center"><img src="media/readme/h09.png" alt="Akte 09 – Rückfragen" width="100%"></p>
+<p align="center"><img src="media/readme/h10.png" alt="Akte 10 – Rückfragen" width="100%"></p>
 
 <details>
 <summary><b>💻 Läuft das Spiel auf meinem PC?</b></summary>
@@ -275,6 +333,20 @@ Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruck
 <br>
 
 Ja, und in sechs weiteren Sprachen: **Deutsch · English · Español · Français · Português (BR) · Русский · 简体中文 · 日本語**. Umstellen unter **Optionen → Anzeige → „Sprache · Language“**.
+</details>
+
+<details>
+<summary><b>🎮 Kann ich mit Controller spielen?</b></summary>
+<br>
+
+Ja. Xbox- und PlayStation-Controller funktionieren im Spiel und in allen Menüs, einfach einstecken oder per Bluetooth verbinden und eine Taste drücken.
+</details>
+
+<details>
+<summary><b>📅 Wann gibt es einen neuen Tagesbefehl?</b></summary>
+<br>
+
+Jeden Tag um Mitternacht (deine Ortszeit). Du kannst ihn beliebig oft versuchen, gezählt wird dein bestes Ergebnis des Tages.
 </details>
 
 <details>
