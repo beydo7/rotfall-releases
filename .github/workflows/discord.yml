@@ -1,0 +1,75 @@
+# ROTFALL Funker: schickt Neuigkeiten automatisch in den Discord.
+# - neues Release      → Patchnotes (#patchnotes) + Download-Link (#download)
+# - Push nach test/    → Testaufruf (#playtest); Text aus test/NOTES.md, sonst Commit-Nachricht
+# - alle 30 Minuten    → neue YouTube-Videos / TikToks (#videos)
+# Secrets:   DISCORD_PATCHNOTES, DISCORD_DOWNLOAD, DISCORD_PLAYTEST, DISCORD_VIDEOS (Webhook-Adressen)
+# Variables: YOUTUBE (@Handle oder Kanal-ID), TIKTOK_FEED (Feed-Adresse von rss.app),
+#            ROLE_PATCH, ROLE_PLAYTEST, ROLE_VIDEOS (Rollen-IDs zum Pingen, optional)
+# Von Hand: Actions → Discord → „Run workflow“ (z. B. „test“ für eine Funkprobe).
+name: Discord
+on:
+  release:
+    types: [published]
+  push:
+    branches: [main]
+    paths: ['test/**']
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+    inputs:
+      was:
+        description: 'Was senden?'
+        type: choice
+        options: [test, release, playtest, social]
+        default: test
+permissions:
+  contents: write
+concurrency: discord-${{ github.event_name }}
+env:
+  DISCORD_PATCHNOTES: ${{ secrets.DISCORD_PATCHNOTES }}
+  DISCORD_DOWNLOAD: ${{ secrets.DISCORD_DOWNLOAD }}
+  DISCORD_PLAYTEST: ${{ secrets.DISCORD_PLAYTEST }}
+  DISCORD_VIDEOS: ${{ secrets.DISCORD_VIDEOS }}
+  YOUTUBE: ${{ vars.YOUTUBE }}
+  TIKTOK_FEED: ${{ vars.TIKTOK_FEED }}
+  ROLE_PATCH: ${{ vars.ROLE_PATCH }}
+  ROLE_PLAYTEST: ${{ vars.ROLE_PLAYTEST }}
+  ROLE_VIDEOS: ${{ vars.ROLE_VIDEOS }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  funk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            test/NOTES.md
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Was ist zu tun?
+        id: was
+        run: |
+          case "${{ github.event_name }}" in
+            release) echo "cmd=release" >> "$GITHUB_OUTPUT";;
+            push) echo "cmd=playtest" >> "$GITHUB_OUTPUT";;
+            schedule) echo "cmd=social" >> "$GITHUB_OUTPUT";;
+            *) echo "cmd=${{ inputs.was }}" >> "$GITHUB_OUTPUT";;
+          esac
+      - name: Zustand laden (schon gepostete Videos)
+        if: steps.was.outputs.cmd == 'social'
+        run: |
+          git fetch -q origin discord-state 2>/dev/null && git show origin/discord-state:state.json > state.json || echo '{}' > state.json
+          cp state.json state.alt.json
+      - name: Senden
+        run: node .github/discord/funker.mjs ${{ steps.was.outputs.cmd }}
+      - name: Zustand speichern
+        if: steps.was.outputs.cmd == 'social'
+        run: |
+          if cmp -s state.json state.alt.json; then echo "nichts Neues"; exit 0; fi
+          mkdir st && cp state.json st/ && cd st
+          git init -q && git add state.json
+          git -c user.name="ROTFALL Funker" -c user.email="funker@users.noreply.github.com" commit -qm "Discord-Zustand"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:discord-state
