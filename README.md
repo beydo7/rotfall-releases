@@ -22,9 +22,9 @@
 <p align="center"><sub><b>Kostenlos</b> &nbsp;·&nbsp; keine Anmeldung &nbsp;·&nbsp; dein Fortschritt bleibt bei Updates erhalten</sub></p>
 
 > [!TIP]
-> **Neu in v2.2:** 🔊 **echte Sounds** – Waffen, Zombies, Explosionen, Bosse, Belohnungen und Menüs klingen jetzt nach professionellen Aufnahmen · 🎚️ ruhiger Mix, der sich bei großen Horden und vielen Waffen automatisch herunterregelt · räumlicher Klang von links und rechts
+> **Neu in v2.5:** ⚙️ deutlich flüssiger bei großen Horden, Grafik-Voreinstellungen mit **Automatik** · ✨ weiche Schatten in Ecken, Lichtkegel im Nebel, bewegtes Meer, Druckwellen, 3D-Lager · ▶️ **Einsatz fortsetzen** nach dem Schließen · 📻 Funkprotokoll und Untertitel · 🛒 Vorschau der nächsten Welle im Nachschub · 🧭 aufgeräumter Bildschirm
 >
-> **Seit v2.1:** 🐞 viele Fehler aus v2.0 behoben (Ebene 9, Weiterentwicklungen, Tagesbefehl, Lager)
+> **Seit v2.2:** 🔊 echte Sounds mit ruhigem, räumlichem Mix
 >
 > **Seit v2.0:** 🔻 [Das Finale auf Ebene 9](#ebene9) mit Echo als Endgegner und drei Enden · 🧬 [Weiterentwicklungen für alle 17 Waffen](#evo) · 🧟 bis zu 250 Zombies gleichzeitig, die humpeln, kriechen und Arme verlieren · ⚡ [Ereignisse mitten in der Welle](#ereignisse) · 🏕️ [Das Lager](#lager) für dauerhafte Verbesserungen · 🧑‍🔬 neuer Charakter Prof. Konrad Wendt
 
@@ -392,7 +392,7 @@ In allen Menüs: Steuerkreuz oder Stick zum Auswählen, <kbd>A</kbd> bestätigen
 
 **Lieber andere Tasten?** Unter **Optionen → Tastenbelegung** legst du jede Aktion für Tastatur und Controller selbst fest. Doppelt belegte Tasten tauschen automatisch.
 
-Die Optionen sind in Reiter aufgeteilt: **Grafik, Anzeige, Audio, Kamera und Tastenbelegung**. Neu dabei sind unter anderem Render-Auflösung, Lautstärke für Effekte und Umgebung, Ton im Hintergrund, Controller-Empfindlichkeit und das Ausblenden von Tipps, Pfeilen und Kill-Serie.
+Die Optionen sind in Reiter aufgeteilt: **Grafik, Anzeige, Audio, Kamera und Tastenbelegung**. Unter **Grafik** wählst du eine Voreinstellung (Niedrig bis Ultra) oder lässt die **Automatik** messen und einstellen; darunter sind alle Einzelheiten in Bild, Leistung, Effekte und Stil sortiert. Außerdem: Render-Auflösung, Lautstärke für Effekte und Umgebung, Untertitel für den Funk, Minimap-Größe, Controller-Empfindlichkeit und das Ausblenden von Tipps, Pfeilen und Kill-Serie.
 
 <br clear="right">
 
@@ -404,7 +404,14 @@ Die Optionen sind in Reiter aufgeteilt: **Grafik, Anzeige, Audio, Kamera und Tas
 <summary><b>💻 Läuft das Spiel auf meinem PC?</b></summary>
 <br>
 
-Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, stell unter **Optionen → Grafik** die **Schatten** auf „Mittel“ oder „Aus“ oder senke die **Render-Auflösung**.
+Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, drück unter **Optionen → Grafik** auf **„Automatisch“** – das Spiel misst im nächsten Einsatz und stellt sich passend ein. Oder wähl selbst eine niedrigere Voreinstellung bzw. senke Schatten oder Render-Auflösung.
+</details>
+
+<details>
+<summary><b>⏸️ Kann ich einen Einsatz unterbrechen?</b></summary>
+<br>
+
+Ja. Geh einfach ins Hauptmenü oder schließ das Spiel – beim nächsten Start steht oben **„Einsatz fortsetzen“**. Deine Waffen, Perks, dein Schrott und Dienstgrad bleiben erhalten; eine angefangene Welle startet neu. Nur der Tagesbefehl lässt sich nicht fortsetzen.
 </details>
 
 <details>
