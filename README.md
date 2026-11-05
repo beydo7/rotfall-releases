@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/v/release/beydo7/rotfall-releases?label=VERSION&style=for-the-badge&color=c8283a&labelColor=1a1410" alt="Version"></a>
+  <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/v/release/beydo7/rotfall-releases?label=VERSION&style=for-the-badge&color=c8283a&labelColor=1a1410&cacheSeconds=600" alt="Version"></a>
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/downloads/beydo7/rotfall-releases/total?label=DOWNLOADS&style=for-the-badge&color=d9a441&labelColor=1a1410" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/WINDOWS%20%7C%20BROWSER-5a4a3a?style=for-the-badge&labelColor=1a1410&logo=windows&logoColor=e8dcc0" alt="Plattform">
   <img src="https://img.shields.io/badge/8%20SPRACHEN-3a5a7a?style=for-the-badge&labelColor=1a1410&logo=googletranslate&logoColor=e8dcc0" alt="8 Sprachen">
