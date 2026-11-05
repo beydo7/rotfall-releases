@@ -22,7 +22,7 @@
 <p align="center"><sub><b>Kostenlos</b> &nbsp;·&nbsp; keine Anmeldung &nbsp;·&nbsp; dein Fortschritt bleibt bei Updates erhalten</sub></p>
 
 > [!TIP]
-> **Neu in v1.1:** 🔥 [Bedrohungsstufen 1–10](#bedrohung) · 🔒 [Angebote sperren & Waffenvergleich](#komfort) · 📊 Werte-Übersicht (<kbd>Tab</kbd> halten) · ⌨️ [alle Tasten frei belegbar](#steuerung) · 📁 [Die Akte als Dossier mit 15 Blättern](#akte) · 🧱 keine unsichtbaren Wände mehr
+> **Neu in v2.0:** 🔻 [Das Finale auf Ebene 9](#ebene9) mit Echo als Endgegner und drei Enden · 🧬 [Weiterentwicklungen für alle 17 Waffen](#evo) · 🧟 bis zu 250 Zombies gleichzeitig, die humpeln, kriechen und Arme verlieren · ⚡ [Ereignisse mitten in der Welle](#ereignisse) · 🏕️ [Das Lager](#lager) für dauerhafte Verbesserungen · 🧑‍🔬 neuer Charakter Prof. Konrad Wendt
 
 <br>
 
@@ -37,10 +37,12 @@ Drei Wochen später bricht die Eindämmung zusammen. Die Tore sind verriegelt, d
 
 Woher Echo das alles weiß? Darüber denkst du später nach. **Jetzt kommen sie.**
 
+Und irgendwann, wenn du oft genug überlebt hast, ruft Echo dich nach unten. Auf **Ebene 9**.
+
 <a id="akte"></a>
 <p align="center">
   <img src="media/readme/shot-dossier.jpg" alt="Die Akte: Erlass zur Sperrzone Seuchenwald" width="100%">
-  <br><sub><i>Die ganze Vorgeschichte findest du im Hauptmenü unter <b>Die Akte</b>: Geheimakten, Zeitungsartikel, Funkprotokolle, Laborberichte und das ROT-NET-Archiv. Weitere Blätter schaltest du durch deinen Fortschritt frei.</i></sub>
+  <br><sub><i>Die ganze Geschichte findest du im Hauptmenü unter <b>Die Akte</b> (20 Blätter): Geheimakten, Zeitungsartikel, Funkprotokolle, Laborberichte und das ROT-NET-Archiv. Weitere Blätter schaltest du durch deinen Fortschritt frei.</i></sub>
 </p>
 
 <p align="center">
@@ -59,7 +61,7 @@ Woher Echo das alles weiß? Darüber denkst du später nach. **Jetzt kommen sie.
 <td width="50%" valign="top">
 
 ### 🔫 17 Waffen
-Von der Dienstpistole bis zur Tesla-Spule. Jede ist in **5 Stufen** aufrüstbar und lässt sich einmal in der **Rotium-Schmiede veredeln**, mit eigenem Namen und rotem Glühen.
+Von der Dienstpistole bis zur Tesla-Spule. Jede ist in **5 Stufen** aufrüstbar, lässt sich einmal in der **Rotium-Schmiede veredeln** und mit dem passenden Upgrade **weiterentwickeln**.
 
 </td>
 <td width="50%" valign="top">
@@ -100,8 +102,8 @@ Befreie Gefangene aus Käfigen. Soldaten kämpfen an deiner Seite, Wissenschaftl
 <tr>
 <td valign="top">
 
-### 🧬 Zombie-Eigenschaften
-Brennend, gepanzert, spaltend, regenerierend … Ab Welle 6 halten die Toten Überraschungen bereit.
+### 🧟 Die Horde lebt
+Bis zu **250 Zombies** gleichzeitig. Sie schlurfen, humpeln und taumeln, verlieren Arme und Beine und kriechen dann weiter. Feuer verkohlt sie, Eis lässt sie zerspringen, Strom lässt sie zucken. Ab Welle 6 kommen Eigenschaften dazu: brennend, gepanzert, spaltend …
 
 </td>
 <td valign="top">
@@ -120,8 +122,8 @@ Welle 20 geschafft? Noch nicht ganz. Der Helikopter landet, und du musst **30 Se
 </td>
 <td valign="top">
 
-### 💥 Treffer mit Wumms
-Kritische Treffer leuchten golden, Elite-Zombies explodieren mit eigenem Effekt, und ab 10 schnellen Kills zählt deine **Kill-Serie** mit.
+### ⚡ Ereignisse
+Mitten in der Welle geht das Licht aus, ein Flugzeug wirft Kisten ab oder der Blutmond geht auf. Jede Karte hat dazu ihr eigenes Ereignis: Artillerie, Großbrand, Sporenregen, Strahlungssturm …
 
 </td>
 </tr>
@@ -152,6 +154,27 @@ Tuschekonturen, gestufte Schatten und Rasterpunkte wie in einem gedruckten Heft.
 <td valign="top"><sub><b>Werte-Übersicht:</b> <kbd>Tab</kbd> gedrückt halten zeigt alle Werte, Waffen und Perks auf einen Blick.</sub></td>
 </tr>
 </table>
+
+<a id="evo"></a><a id="ereignisse"></a>
+<table>
+<tr>
+<td width="50%" valign="top"><img src="media/readme/shot-evo.jpg" alt="Weiterentwicklung in der Vorratskiste"></td>
+<td width="50%" valign="top">
+
+### 🧬 Weiterentwicklungen
+Bringst du eine Waffe auf **Stufe 5** und hast das **passende Upgrade**, bietet dir die nächste Vorratskiste die Weiterentwicklung an. Die Waffe spielt sich danach **anders**: Die Tesla-Spule ruft Blitze vom Himmel, Schrotkugeln prallen ab, Kreissägen heilen dich.
+
+Auf jeder Karte steht, was zusammenpasst. Alle 17 findest du im Lexikon, solange unentdeckt als „???“.
+
+</td>
+</tr>
+</table>
+
+<a id="lager"></a>
+<p align="center">
+  <img src="media/readme/shot-camp.jpg" alt="Das Lager" width="85%">
+  <br><sub><i><b>Das Lager:</b> Steck deine Rotium-Splitter in Waffenkammer, Lazarett, Lagerhaus, Funkraum und Labor. Jede Station hat 5 Stufen, kleine Boni für alle Einsätze. Zurücksetzen ist jederzeit kostenlos, beim Tagesbefehl zählt das Lager nicht.</i></sub>
+</p>
 
 <details>
 <summary><b>🔁 So läuft ein Einsatz ab</b> <sub>(aufklappen)</sub></summary>
@@ -219,10 +242,18 @@ Dein Tagesbestwert wird gespeichert. Mit **„Ergebnis kopieren“** landet er a
 </tr>
 </table>
 
+<a id="ebene9"></a>
+<p align="center">
+  <img src="media/readme/map-lab9.jpg" alt="Ebene 9 – das Finale" width="100%">
+</p>
+
+> [!IMPORTANT]
+> **🔻 Ebene 9 – das Finale.** Evakuiere auf **drei verschiedenen Karten**, dann öffnet sich der Aufzug nach unten: Laborgänge, Zellenblock, Archiv, Kühlräume und die Reaktorhalle mit dem roten Kern. In Welle 20 wartet erst der Erstgeborene, dann **Echo selbst**. Danach triffst du eine Entscheidung, und es gibt **drei Enden**. Eines davon erreicht nur Subjekt 0.
+
 <a id="bedrohung"></a>
 <p align="center">
   <img src="media/readme/shot-levels.jpg" alt="Die Kartenauswahl mit Bedrohungsstufe" width="85%">
-  <br><sub><i>Die Kartenauswahl: Wolfsgrund schaltest du ab Welle 8 frei, Grauheim ab Welle 6, die Atomwüste ab Welle 10. Unten wählst du die <b>Bedrohungsstufe</b>, jeder Sieg schaltet die nächste frei.</i></sub>
+  <br><sub><i>Die Kartenauswahl: Wolfsgrund schaltest du ab Welle 8 frei, Grauheim ab Welle 6, die Atomwüste ab Welle 10, Ebene 9 nach drei Evakuierungen. Unten wählst du die <b>Bedrohungsstufe</b>, jeder Sieg schaltet die nächste frei.</i></sub>
 </p>
 
 <br>
@@ -233,7 +264,7 @@ Dein Tagesbestwert wird gespeichert. Mit **„Ergebnis kopieren“** landet er a
   <img src="media/readme/shot-akten.jpg" alt="Personalakten: Charakterauswahl" width="85%">
 </p>
 
-Zehn Charaktere, jeder mit eigener Startwaffe, eigenen Werten und einer **Spezialfähigkeit** (<kbd>Q</kbd>). Mit jedem Einsatz steigt ihre **Meisterschaft**: zehn Ränge mit Titeln, Skins und einer zweiten Startwaffe.
+Elf Charaktere, jeder mit eigener Startwaffe, eigenen Werten und einer **Spezialfähigkeit** (<kbd>Q</kbd>). Mit jedem Einsatz steigt ihre **Meisterschaft**: zehn Ränge mit Titeln, Skins und einer zweiten Startwaffe.
 
 | | Charakter | Wer ist das? | Fähigkeit |
 |:-:|---|---|---|
@@ -247,6 +278,7 @@ Zehn Charaktere, jeder mit eigener Startwaffe, eigenen Werten und einer **Spezia
 | 🧙 | **Delulu** | Magier aus einer anderen Welt | ❄️ Frostnova |
 | 🥷 | **Champurai** | Der letzte Ninja aus LuckyTown | 🌫️ Rauchschleier |
 | 🕶️ | **Double D** | Meister der Nacht. Hasst Zombies. Vape in der Hand. | 🌀 Chaosnova |
+| 🧑‍🔬 | **Prof. Konrad Wendt** | ??? (schaltest du auf Ebene 9 frei) | 🔴 Rotium-Schlag |
 
 <br>
 
@@ -262,7 +294,7 @@ Schlurfer, Renner und Rotköter sind erst der Anfang.
 - 🕳️ **Gräber** tauchen direkt neben dir auf
 - 📢 **Kreischer** machen alle anderen wild
 
-Dann sind da noch **der Schlachter**, **Oberst Krüger** und *er*: **der Erstgeborene**.
+Dann sind da noch **der Schlachter**, **Oberst Krüger** und *er*: **der Erstgeborene**. Und ganz unten wartet jemand, der dich schon die ganze Zeit kennt.
 
 Alles, was du über sie herausfindest, landet in den **Feldakten**, mit Echos ganz persönlichen Notizen.
 
