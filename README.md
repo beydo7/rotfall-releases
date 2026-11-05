@@ -22,7 +22,9 @@
 <p align="center"><sub><b>Kostenlos</b> &nbsp;·&nbsp; keine Anmeldung &nbsp;·&nbsp; dein Fortschritt bleibt bei Updates erhalten</sub></p>
 
 > [!TIP]
-> **Neu in v2.1:** 🔊 räumlicher Klang – Zombies und Explosionen kommen von links oder rechts und werden mit der Entfernung leiser · 🐞 viele Fehler aus v2.0 behoben (Ebene 9, Weiterentwicklungen, Tagesbefehl, Lager)
+> **Neu in v2.2:** 🔊 **echte Sounds** – Waffen, Zombies, Explosionen, Bosse, Belohnungen und Menüs klingen jetzt nach professionellen Aufnahmen · 🎚️ ruhiger Mix, der sich bei großen Horden und vielen Waffen automatisch herunterregelt · räumlicher Klang von links und rechts
+>
+> **Seit v2.1:** 🐞 viele Fehler aus v2.0 behoben (Ebene 9, Weiterentwicklungen, Tagesbefehl, Lager)
 >
 > **Seit v2.0:** 🔻 [Das Finale auf Ebene 9](#ebene9) mit Echo als Endgegner und drei Enden · 🧬 [Weiterentwicklungen für alle 17 Waffen](#evo) · 🧟 bis zu 250 Zombies gleichzeitig, die humpeln, kriechen und Arme verlieren · ⚡ [Ereignisse mitten in der Welle](#ereignisse) · 🏕️ [Das Lager](#lager) für dauerhafte Verbesserungen · 🧑‍🔬 neuer Charakter Prof. Konrad Wendt
 
@@ -454,6 +456,7 @@ Kein GitHub-Konto? Dann schick Pascal den F8-Bericht einfach direkt.
 ---
 
 <p align="center">
+  🔊 Sounds: <a href="https://sonniss.com/gameaudiogdc">Sonniss #GameAudioGDC</a> und <a href="https://kenney.nl">Kenney</a> (lizenzfrei).<br>
   <b>🧪 Playtest-Version.</b> ROTFALL ist mitten in der Entwicklung, alles kann sich noch ändern.<br>
   Was in jeder Version neu ist, steht bei den <a href="https://github.com/beydo7/rotfall-releases/releases">Releases</a>.
 </p>
