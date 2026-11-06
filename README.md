@@ -1,15 +1,11 @@
 <p align="center">
-  <img src="media/readme/hero.jpg" alt="ROTFALL – Halte zwanzig Wellen durch" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=22&duration=2600&pause=1400&color=D9A441&center=true&vCenter=true&width=720&height=44&lines=ECHO%20AN%20ALLE%20EINHEITEN%20%E2%80%A6;Halte%20zwanzig%20Wellen%20durch.;Bring%20die%20Generatoren%20ans%20Netz.;Dann%20zeige%20ich%20dir%20die%20Schmiede.;Und%20dann%20%E2%80%A6%20kommt%20der%20Helikopter." alt="Echo: Halte zwanzig Wellen durch.">
+  <img src="media/game/hero.jpg" alt="ROTFALL – Halte zwanzig Wellen durch. Dann kommt der Helikopter." width="100%">
 </p>
 
 <p align="center">
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/v/release/beydo7/rotfall-releases?label=VERSION&style=for-the-badge&color=c8283a&labelColor=1a1410&cacheSeconds=600" alt="Version"></a>
   <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/downloads/beydo7/rotfall-releases/total?label=DOWNLOADS&style=for-the-badge&color=d9a441&labelColor=1a1410" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/WINDOWS%20%7C%20BROWSER-5a4a3a?style=for-the-badge&labelColor=1a1410&logo=windows&logoColor=e8dcc0" alt="Plattform">
+  <img src="https://img.shields.io/badge/WINDOWS%20%7C%20BROWSER-5a4a3a?style=for-the-badge&labelColor=1a1410&logo=windows&logoColor=e8dcc0" alt="Windows und Browser">
   <img src="https://img.shields.io/badge/1--2%20SPIELER-2f6f6f?style=for-the-badge&labelColor=1a1410&logo=handshake&logoColor=e8dcc0" alt="1–2 Spieler">
   <img src="https://img.shields.io/badge/8%20SPRACHEN-3a5a7a?style=for-the-badge&labelColor=1a1410&logo=googletranslate&logoColor=e8dcc0" alt="8 Sprachen">
   <img src="https://img.shields.io/badge/CONTROLLER-6a4a7a?style=for-the-badge&labelColor=1a1410&logo=steamdeck&logoColor=e8dcc0" alt="Controller-Unterstützung">
@@ -24,55 +20,81 @@
 <p align="center">
   <a href="https://discord.gg/6yuVzSg8vg"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1410" alt="Discord"></a>
   <a href="https://tiktok.com/@beydyoyo"><img src="https://img.shields.io/badge/TikTok-@beydyoyo-ff3b5c?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1a1410" alt="TikTok"></a>
-  <a href="https://github.com/beydo7/rotfall-releases"><img src="https://img.shields.io/badge/GitHub-rotfall--releases-5a4a3a?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1410" alt="GitHub"></a>
 </p>
 
 <p align="center">
-  <b><a href="#lagebericht">Story</a></b> &nbsp;·&nbsp;
+  <b><a href="#spiel">Das Spiel</a></b> &nbsp;·&nbsp;
+  <b><a href="#ablauf">Ablauf</a></b> &nbsp;·&nbsp;
   <b><a href="#features">Features</a></b> &nbsp;·&nbsp;
-  <b><a href="#koop">Koop</a></b> &nbsp;·&nbsp;
+  <b><a href="#truppe">Figuren</a></b> &nbsp;·&nbsp;
   <b><a href="#karten">Karten</a></b> &nbsp;·&nbsp;
-  <b><a href="#charaktere">Charaktere</a></b> &nbsp;·&nbsp;
-  <b><a href="#feinde">Feinde & Waffen</a></b> &nbsp;·&nbsp;
+  <b><a href="#koop">Koop</a></b> &nbsp;·&nbsp;
+  <b><a href="#horde">Horde & Waffen</a></b> &nbsp;·&nbsp;
   <b><a href="#download">Download</a></b> &nbsp;·&nbsp;
   <b><a href="#steuerung">Steuerung</a></b> &nbsp;·&nbsp;
-  <b><a href="#community">Community</a></b> &nbsp;·&nbsp;
   <b><a href="#faq">FAQ</a></b>
 </p>
 
-> [!TIP]
-> **Neu in v2.7 – Faires Balancing ⚖️** Waffen-Stufen und die Schmiede machen dich nicht mehr übermächtig, die Zombies werden mit jeder Welle spürbar zäher, und Fähigkeiten, Geschütze und Verbündete wachsen mit. Welle 16–20 wird wieder richtig eng.
->
-> **v2.6 – 🤝 [Koop zu zweit](#koop):** Raum erstellen, Code an einen Freund schicken, zusammen gegen die Horde.
->
-> Alle Änderungen stehen bei den [Releases](https://github.com/beydo7/rotfall-releases/releases).
+<details>
+<summary><b>🇬🇧 English summary</b></summary>
+<br>
+
+**ROTFALL** is a free 3D zombie survival roguelite set in the Cold War, autumn 1968. Think *Megabonk* meets the zombie mode of *Call of Duty*: your weapons fire on their own, you dodge, loot, upgrade and decide. Survive 20 waves, power up the generators, forge your weapons in the Rotium forge and hold the landing zone until the helicopter takes off.
+
+- 15 playable characters, each with its own weapon, ability and personality
+- 21 weapons with 21 evolutions, perk machines, a mystery box and generators
+- 7 maps, a final level with three endings, daily challenge and threat levels
+- Online co-op for two players, controller support, 8 languages (English included)
+
+Play it right in your browser or download the Windows version above. Switch the language under **Options → Display → „Sprache · Language“**.
+</details>
 
 <br>
 
 <!-- ═════════════════════════ 01 ═════════════════════════ -->
-<a id="lagebericht"></a>
-<p align="center"><img src="media/readme/h01.png" alt="Akte 01 – Lagebericht" width="100%"></p>
+<a id="spiel"></a>
+<p align="center"><img src="media/game/s01.png" alt="01 – Das Spiel" width="100%"></p>
 
-<img src="media/readme/shot-dossier.jpg" alt="Die Akte: Erlass zur Sperrzone Seuchenwald" width="44%" align="right">
+<p align="center">
+  <img src="media/game/shot-horde.jpg" alt="Dawson mitten in der Horde im Seuchenwald" width="100%">
+</p>
+
+**ROTFALL** ist ein 3D-Zombie-Survival-Roguelite, angelehnt an *Megabonk* und den Zombie-Modus aus *Call of Duty*. Deine Waffen feuern **automatisch**. Du kümmerst dich ums Überleben: laufen, springen, ausweichen, Beute sammeln, aufrüsten, entscheiden. Jede Welle bringt mehr Zombies, jede Beförderung macht dich stärker, und kein Einsatz läuft gleich.
+
+<table>
+<tr>
+<td width="25%" align="center"><b>🧟 Genre</b><br><sub>Zombie-Survival-Roguelite</sub></td>
+<td width="25%" align="center"><b>📅 Setting</b><br><sub>Kalter Krieg, Herbst 1968</sub></td>
+<td width="25%" align="center"><b>👥 Spieler</b><br><sub>Solo oder online zu zweit</sub></td>
+<td width="25%" align="center"><b>⏱️ Ein Einsatz</b><br><sub>20 Wellen, danach Endlos-Modus</sub></td>
+</tr>
+</table>
+
+<img src="media/readme/shot-dossier.jpg" alt="Die Akte: Erlass zur Sperrzone" width="42%" align="right">
 
 **Herbst 1968.** Ein Meteorit schlägt in den Bergen nahe der geheimen Forschungsstation **Kessel 9** ein. Die Wissenschaftler nennen das rot glühende Gestein **Rotium**. Es lässt Tote wieder aufstehen.
 
-Drei Wochen später bricht die Eindämmung zusammen. Die Tore sind verriegelt, der Strom ist weg. Dann knackt das alte Funkgerät, und eine Stimme meldet sich, die sich **Echo** nennt.
+Drei Wochen später bricht die Eindämmung zusammen. Die Tore sind verriegelt, der Strom ist weg. Dann knackt das alte Funkgerät, und eine Stimme meldet sich, die sich **Echo** nennt. Sie gibt dir Befehle, bietet dir Pakte an und weiß erstaunlich viel.
 
 Woher Echo das alles weiß? Darüber denkst du später nach. **Jetzt kommen sie.**
 
-<sub>📁 Die ganze Geschichte steckt im Hauptmenü unter <b>Die Akte</b>: 20 Blätter mit Geheimakten, Zeitungsartikeln, Funkprotokollen und Laborberichten.</sub>
+<sub>📁 Die ganze Geschichte steckt im Hauptmenü unter <b>Die Akte</b>: Geheimakten, Zeitungsartikel, Funkprotokolle und Laborberichte.</sub>
 
 <br clear="right">
+<br>
+
+<!-- ═════════════════════════ 02 ═════════════════════════ -->
+<a id="ablauf"></a>
+<p align="center"><img src="media/game/s02.png" alt="02 – So läuft ein Einsatz" width="100%"></p>
 
 <p align="center">
-  <img src="media/readme/shot-horde.jpg" alt="Im Einsatz: die Horde im Waldlager" width="100%">
+  <img src="media/game/loop.png" alt="Überleben, Aufrüsten, Karte erobern, Rauskommen" width="100%">
 </p>
 
-**ROTFALL** ist ein 3D-Survival-Roguelite mit Zombies, angelehnt an *Megabonk* und den Zombie-Modus aus *Call of Duty*. Deine Waffen feuern **automatisch**. Du kümmerst dich ums Überleben: ausweichen, Beute sammeln, aufrüsten, entscheiden. Jede Welle bringt mehr Zombies, jede Beförderung macht dich stärker, und kein Einsatz läuft gleich.
+Zwischen den Wellen bekommst du im **Nachschub** eine kurze Atempause: Waffen kaufen, Upgrades zurücklegen, vergleichen, weiter. Mitten im Kampf funkt **Echo** dazwischen: Halte diese Stellung, töte so viele Zombies in 40 Sekunden, bring den Generator ans Netz. Schaffst du es nicht, löscht ein Rotium-Schlag alles aus.
 
 <details>
-<summary><b>🔁 So läuft ein Einsatz ab</b></summary>
+<summary><b>🔁 Der ganze Ablauf als Schaubild</b></summary>
 <br>
 
 ```mermaid
@@ -91,65 +113,61 @@ flowchart LR
 
 <br>
 
-<!-- ═════════════════════════ 02 ═════════════════════════ -->
+<!-- ═════════════════════════ 03 ═════════════════════════ -->
 <a id="features"></a>
-<p align="center"><img src="media/readme/h02.png" alt="Akte 02 – Einsatzmittel" width="100%"></p>
+<p align="center"><img src="media/game/s03.png" alt="03 – Features" width="100%"></p>
+
+<table>
+<tr>
+<td width="55%"><img src="media/game/shot-city.jpg" alt="Johnny Fuzz in Grauheim bei Abenddämmerung"></td>
+<td width="45%" valign="middle">
+
+### 🧟 Eine Horde, die lebt
+Bis zu **250 Zombies** gleichzeitig. Sie schlurfen, humpeln und kriechen weiter, wenn sie ein Bein verlieren. Feuer verkohlt sie, Kälte lässt sie zerspringen, Blitze schleudern sie durch die Luft.
+
+<sub>Neun Gegnertypen, ein eigener Zombie pro Karte und vier Bosse.</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="middle">
+
+### 🔫 21 Waffen, 21 Weiterentwicklungen
+Von der Dienstpistole bis zum Schwerkraftwerfer. Jede Waffe hat 5 Stufen und lässt sich in der **Rotium-Schmiede** veredeln. Waffe auf Stufe 5 plus das passende Upgrade ergibt eine **Weiterentwicklung**, die sich komplett anders spielt.
+
+<sub>Die Tesla-Spule ruft Blitze vom Himmel, Kreissägen heilen dich, das Wollknäuel wird zur Strickliesel.</sub>
+
+</td>
+<td><img src="media/readme/shot-evo.jpg" alt="Weiterentwicklung in der Vorratskiste"></td>
+</tr>
+<tr>
+<td><img src="media/game/shot-desert.jpg" alt="Juri Sokol in der Atomwüste"></td>
+<td valign="middle">
+
+### ⚙️ Die Karte gehört dir
+Wie im CoD-Zombie-Modus: **Trümmer räumen**, neue Gebiete öffnen, **vier Generatoren** ans Netz bringen und verteidigen. Dann startet die **Schmiede**. Dazu **Perk-Automaten**, die **Wunderkiste** mit Zufallswaffen und Geschütze, die du aufstellst.
+
+<sub>Befreite Überlebende kämpfen mit oder halten einen Generator am Laufen.</sub>
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-**🔫 17 Waffen**<br>
-<sub>Von der Dienstpistole bis zur Tesla-Spule. 5 Stufen, in der Rotium-Schmiede veredelbar.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**🧬 Weiterentwicklungen**<br>
-<sub>Waffe auf Stufe 5 + passendes Upgrade = eine neue Waffe, die sich ganz anders spielt.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**🧟 Lebendige Horde**<br>
-<sub>Bis zu 250 Zombies. Sie humpeln, verlieren Arme und Beine und kriechen weiter.</sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 **📻 Echos Befehle**<br>
-<sub>Aufträge mitten im Kampf. Schaffst du sie nicht, löscht ein Rotium-Schlag alles aus.</sub>
+<sub>Aufträge mitten im Kampf, mit Belohnung oder Strafe.</sub>
 
 </td>
-<td valign="top">
-
-**⚙️ Generatoren & Schmiede**<br>
-<sub>Vier Generatoren ans Netz bringen und verteidigen, dann startet die Schmiede.</sub>
-
-</td>
-<td valign="top">
-
-**🎲 Wunderkiste & Perks**<br>
-<sub>Zufällige Waffen aus der Kiste, Perks aus Automaten wie in CoD Zombies.</sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
+<td width="33%" valign="top">
 
 **🩸 Echos Pakte**<br>
 <sub>Macht gegen einen Preis. Doppelter Schrott, dafür weniger Heilung?</sub>
 
 </td>
-<td valign="top">
-
-**🆘 Überlebende**<br>
-<sub>Befreie Gefangene. Soldaten kämpfen mit, Wissenschaftler halten Generatoren am Laufen.</sub>
-
-</td>
-<td valign="top">
+<td width="33%" valign="top">
 
 **⚡ Ereignisse**<br>
 <sub>Stromausfall, Blutmond, Abwurfkisten – und je Karte ein eigenes Ereignis.</sub>
@@ -159,10 +177,24 @@ flowchart LR
 <tr>
 <td valign="top">
 
-**🚁 Evakuierung**<br>
-<sub>Nach Welle 20 die Landezone 30 Sekunden halten, bis der Helikopter abhebt.</sub>
+**🏕️ Das Lager**<br>
+<sub>Rotium-Splitter in dauerhafte Boni stecken: Waffenkammer, Lazarett, Funkraum und mehr.</sub>
 
 </td>
+<td valign="top">
+
+**🎖️ Meisterschaft**<br>
+<sub>Zehn Ränge pro Figur mit Titeln, Skins und einer zweiten Startwaffe. Dazu 30 Erfolge.</sub>
+
+</td>
+<td valign="top">
+
+**📅 Tagesbefehl**<br>
+<sub>Jeden Tag ein Einsatz, für alle gleich: dieselbe Karte, dieselbe Figur, ein Bonus, ein Haken.</sub>
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 **🔥 Bedrohungsstufen**<br>
@@ -171,26 +203,19 @@ flowchart LR
 </td>
 <td valign="top">
 
-**🖋️ Grusel-Comic-Look**<br>
+**⏸️ Einsatz fortsetzen**<br>
+<sub>Jederzeit aufhören. Beim nächsten Start machst du genau dort weiter.</sub>
+
+</td>
+<td valign="top">
+
+**🖋️ Comic-Look**<br>
 <sub>Tuschekonturen und Rasterpunkte wie im gedruckten Heft. Abschaltbar.</sub>
 
 </td>
 </tr>
 </table>
 
-<a id="evo"></a>
-<table>
-<tr>
-<td width="58%" valign="top"><img src="media/readme/shot-shop.jpg" alt="Nachschub mit Schloss und Waffenvergleich"></td>
-<td width="42%" valign="top"><img src="media/readme/shot-evo.jpg" alt="Weiterentwicklung in der Vorratskiste"></td>
-</tr>
-<tr>
-<td valign="top"><sub><b>🛒 Nachschub</b> nach jeder Welle: Mit dem 🔒 Schloss legst du ein Angebot zurück, grüne Zahlen zeigen, was besser wird. <kbd>Tab</kbd> zeigt im Einsatz alle Werte.</sub></td>
-<td valign="top"><sub><b>🧬 Weiterentwicklung</b> aus der Vorratskiste: Die Tesla-Spule ruft Blitze vom Himmel, Kreissägen heilen dich. Alle 17 stehen im Lexikon.</sub></td>
-</tr>
-</table>
-
-<a id="lager"></a><a id="tagesbefehl"></a>
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -198,15 +223,11 @@ flowchart LR
 ### 🏕️ Das Lager
 <img src="media/readme/shot-camp.jpg" alt="Das Lager">
 
-<sub>Steck deine Rotium-Splitter in Waffenkammer, Lazarett, Lagerhaus, Funkraum und Labor. Kleine, dauerhafte Boni für alle Einsätze. Zurücksetzen ist jederzeit kostenlos.</sub>
-
 </td>
 <td width="50%" valign="top">
 
-### 📅 Der Tagesbefehl
-<img src="media/readme/shot-daily.jpg" alt="Der Tagesbefehl">
-
-<sub>Jeden Tag ein neuer Einsatz, <b>für alle gleich</b>: dieselbe Karte, derselbe Charakter, ein Bonus und ein Haken. Ergebnis kopieren und mit Freunden vergleichen.</sub>
+### 🛒 Der Nachschub
+<img src="media/readme/shot-shop.jpg" alt="Nachschub mit Schloss und Waffenvergleich">
 
 </td>
 </tr>
@@ -214,34 +235,61 @@ flowchart LR
 
 <br>
 
-<!-- ═════════════════════════ 03 ═════════════════════════ -->
-<a id="koop"></a>
-<p align="center"><img src="media/readme/h03.png" alt="Akte 03 – Zu zweit" width="100%"></p>
+<!-- ═════════════════════════ 04 ═════════════════════════ -->
+<a id="truppe"></a>
+<p align="center"><img src="media/game/s04.png" alt="04 – Die Truppe" width="100%"></p>
 
 <p align="center">
-  <img src="media/readme/shot-koop.jpg" alt="Koop-Lobby mit Raum-Code" width="100%">
+  <img src="media/game/roster.png" alt="Alle 15 spielbaren Figuren" width="100%">
 </p>
 
-Die Horde ist zu zweit noch schöner. Unter **Koop** im Hauptmenü:
+Jede Figur hat eine eigene **Startwaffe**, eigene Werte und eine **Spezialfähigkeit** (<kbd>Q</kbd>). Und jede bewegt sich anders: Juri hüpft wie auf dem Mond, Krümel flitzt mit wippendem Ringelschwanz, Double D watschelt, Subjekt 0 schleicht gebückt.
 
-1. **Raum erstellen** – du bekommst einen Code aus 5 Zeichen
-2. Code an deinen Freund schicken, er tippt ihn unter **Beitreten** ein
-3. Beide wählen ihren Charakter, der Host die Karte – **Los!**
+<p align="center">
+  <img src="media/game/walk.gif" alt="Jede Figur hat ihren eigenen Gang" width="100%">
+</p>
 
-| | |
-|---|---|
-| 🧟 **Gemeinsame Welt** | Zombies, Wellen, Generatoren, Befehle, Ereignisse und die Evakuierung erlebt ihr zusammen |
-| 🎒 **Eigener Fortschritt** | Jeder hat seine eigenen Waffen, Beförderungen und seinen eigenen Schrott |
-| ⏳ **Bereit 1/2** | Beförderung, Nachschub und Pakte: Die Welt wartet, bis beide fertig sind |
-| 🩹 **Wiederbeleben** | Geht einer zu Boden, kann der andere ihn wieder aufhelfen. Erst wenn beide liegen, ist der Einsatz vorbei |
+Bleibst du kurz stehen, macht jede Figur **ihr eigenes Ding**: Varga schreibt aufs Klemmbrett, Volkov raucht, Johnny spielt Gitarre, Krümel knabbert einen Keks, Delulu schwebt, Oma Gertrud strickt.
 
-<sub>Im Koop noch nicht dabei: Tagesbefehl, „Einsatz fortsetzen“ und Ebene 9.</sub>
+<p align="center">
+  <img src="media/game/idle1.gif" alt="Varga, Volkov, Johnny und Krümel im Stand" width="49%">
+  <img src="media/game/idle2.gif" alt="Delulu, Oma Gertrud, Double D und Juri im Stand" width="49%">
+</p>
+
+<details>
+<summary><b>🎖️ Alle 15 Figuren mit Fähigkeit</b></summary>
+<br>
+
+| Figur | Wer ist das? | Fähigkeit | Freischalten |
+|---|---|---|---|
+| **Erik Brandt** | Feldwebel, kennt jeden Winkel von Kessel 9 | 💣 Stielhandgranate | von Anfang an |
+| **Delulu** | Magier aus einer anderen Welt | ❄️ Frostnova | von Anfang an |
+| **Champurai** | Der letzte Ninja aus LuckyTown | 🌫️ Rauchschleier | von Anfang an |
+| **Double D** | Meister der Nacht. Vape in der Hand. | 🌀 Chaosnova | von Anfang an |
+| **Dr. Ilse Varga** | Rotium-Forscherin, weiß mehr, als sie sagt | ⚡ Tesla-Entladung | 300 Rotium-Splitter |
+| **Pjotr Volkov** | KGB-Agent, offiziell Übersetzer | 💨 Rauchgranate | 500 Rotium-Splitter |
+| **Jack „Buck“ Dawson** | US-Marine, laut, stur, unkaputtbar | 🐂 Sturmangriff | Besiege den Schlachter |
+| **Hanna Weiß** | Sanitäterin, hat aufgehört zu zählen | 💉 Adrenalinspritze | Alle 4 Generatoren ans Netz |
+| **Otto Krämer** | Hausmeister, repariert alles | 🧨 Bastel-Minen | Erreiche Welle 15 |
+| **Subjekt 0** | Das erste Testsubjekt. Er erinnert sich an Echo. | 🔴 Rotium-Ausbruch | Überlebe alle 20 Wellen |
+| **Oma Gertrud** | Wohnt seit 1921 in Kessel 9 | 🍰 Frisch gebacken | Spiele 50 Einsätze |
+| **Krümel** | Rotium-Waschbär, klaut alles | 🗑️ Mülltonne | Wunderkiste 25-mal benutzen |
+| **Johnny Fuzz** | Rock’n’Roll-Gitarrist, kam mit der Truppenbetreuung | 🎸 Gitarrensolo | Kill-Serie von 100 |
+| **Major Juri Sokol** | Kosmonaut, seine Kapsel ging 1968 verloren | 🚀 Raketenrucksack | Welle 10 in der Atomwüste |
+| **Prof. Konrad Wendt** | ??? | 🔴 Rotium-Schlag | ein Geheimnis auf Ebene 9 |
+
+</details>
+
+<p align="center">
+  <img src="media/game/shot-oma.jpg" alt="Oma Gertrud in Wolfsgrund" width="49%">
+  <img src="media/game/shot-chars.jpg" alt="Die Personalakten" width="49%">
+</p>
 
 <br>
 
-<!-- ═════════════════════════ 04 ═════════════════════════ -->
+<!-- ═════════════════════════ 05 ═════════════════════════ -->
 <a id="karten"></a>
-<p align="center"><img src="media/readme/h04.png" alt="Akte 04 – Einsatzgebiete" width="100%"></p>
+<p align="center"><img src="media/game/s05.png" alt="05 – Einsatzgebiete" width="100%"></p>
 
 <table>
 <tr>
@@ -258,7 +306,7 @@ Die Horde ist zu zweit noch schöner. Unter **Koop** im Hauptmenü:
 </tr>
 <tr>
 <td valign="top"><sub><b>Fort Granit</b> – Verlassene Armeebasis auf einem Felsplateau über dem Meer: Hangar, Panzerdepot, Kaserne.</sub></td>
-<td valign="top"><sub><b>Grauheim</b> – Grand Hotel, Kino, Tankstelle und ein verbarrikadierter Marktplatz. Brennende Ruinen über der Küste.</sub></td>
+<td valign="top"><sub><b>Grauheim</b> – Grand Hotel, Kino, Tankstelle und ein verbarrikadierter Marktplatz über der Küste.</sub></td>
 </tr>
 <tr>
 <td><img src="media/readme/map-forest.jpg" alt="Seuchenwald"></td>
@@ -270,7 +318,6 @@ Die Horde ist zu zweit noch schöner. Unter **Koop** im Hauptmenü:
 </tr>
 </table>
 
-<a id="ebene9"></a>
 <p align="center">
   <img src="media/readme/map-lab9.jpg" alt="Ebene 9 – das Finale" width="100%">
 </p>
@@ -278,52 +325,41 @@ Die Horde ist zu zweit noch schöner. Unter **Koop** im Hauptmenü:
 > [!IMPORTANT]
 > **🔻 Ebene 9 – das Finale.** Evakuiere auf **drei verschiedenen Karten**, dann fährt der Aufzug nach unten: Laborgänge, Zellenblock und die Reaktorhalle mit dem roten Kern. In Welle 20 wartet erst der Erstgeborene, dann **Echo selbst**. Danach entscheidest du – es gibt **drei Enden**.
 
-<details>
-<summary><b>🗺️ Kartenauswahl & Bedrohungsstufe</b></summary>
-<br>
-<p align="center"><img src="media/readme/shot-levels.jpg" alt="Die Kartenauswahl mit Bedrohungsstufe" width="100%"></p>
-<sub>Neue Karten schaltest du über deinen besten Einsatz frei (Grauheim ab Welle 6, Wolfsgrund ab Welle 8, Atomwüste ab Welle 10). Unten wählst du die <b>Bedrohungsstufe</b>, jeder Sieg schaltet die nächste frei.</sub>
-</details>
-
-<br>
-
-<!-- ═════════════════════════ 05 ═════════════════════════ -->
-<a id="charaktere"></a>
-<p align="center"><img src="media/readme/h05.png" alt="Akte 05 – Einsatzkräfte" width="100%"></p>
-
-<p align="center">
-  <img src="media/readme/shot-akten.jpg" alt="Personalakten: Charakterauswahl" width="100%">
-</p>
-
-Jeder Charakter hat eine eigene Startwaffe, eigene Werte und eine **Spezialfähigkeit** (<kbd>Q</kbd>). Mit jedem Einsatz steigt seine **Meisterschaft**: zehn Ränge mit Titeln, Skins und einer zweiten Startwaffe.
-
-<details>
-<summary><b>🎖️ Alle 11 Charaktere</b></summary>
-<br>
-
-| | Charakter | Wer ist das? | Fähigkeit |
-|:-:|---|---|---|
-| 🎖️ | **Erik Brandt** | Feldwebel, kennt jeden Winkel von Kessel 9 | 💣 Stielhandgranate |
-| 🔬 | **Dr. Ilse Varga** | Rotium-Forscherin, weiß mehr, als sie sagt | ⚡ Tesla-Entladung |
-| 🇺🇸 | **Jack „Buck“ Dawson** | US-Marine, laut, stur, unkaputtbar | 🐂 Sturmangriff |
-| 🕵️ | **Pjotr Volkov** | KGB-Agent, offiziell Übersetzer | 💨 Rauchgranate |
-| ⛑️ | **Hanna Weiß** | Sanitäterin, hat aufgehört zu zählen | 💉 Adrenalinspritze |
-| 🔧 | **Otto Krämer** | Hausmeister, repariert alles | 🧨 Bastel-Minen |
-| ☢️ | **Subjekt 0** | Das erste Testsubjekt. Er erinnert sich an Echo. | 🔴 Rotium-Ausbruch |
-| 🧙 | **Delulu** | Magier aus einer anderen Welt | ❄️ Frostnova |
-| 🥷 | **Champurai** | Der letzte Ninja aus LuckyTown | 🌫️ Rauchschleier |
-| 🕶️ | **Double D** | Meister der Nacht. Hasst Zombies. Vape in der Hand. | 🌀 Chaosnova |
-| 🧑‍🔬 | **Prof. Konrad Wendt** | ??? (schaltest du auf Ebene 9 frei) | 🔴 Rotium-Schlag |
-
-</details>
+<sub>Neue Karten schaltest du über deinen besten Einsatz frei. Unten in der Kartenauswahl wählst du die Bedrohungsstufe.</sub>
 
 <br>
 
 <!-- ═════════════════════════ 06 ═════════════════════════ -->
-<a id="feinde"></a>
-<p align="center"><img src="media/readme/h06.png" alt="Akte 06 – Feldakten" width="100%"></p>
+<a id="koop"></a>
+<p align="center"><img src="media/game/s06.png" alt="06 – Koop" width="100%"></p>
 
-<img src="media/readme/shot-feld.jpg" alt="Feldakten" width="44%" align="right">
+<p align="center">
+  <img src="media/readme/shot-koop.jpg" alt="Koop-Lobby mit Raum-Code" width="100%">
+</p>
+
+Die Horde ist zu zweit noch schöner. Unter **Koop** im Hauptmenü:
+
+1. **Raum erstellen** – du bekommst einen Code aus 5 Zeichen
+2. Code an deinen Freund schicken, er tippt ihn unter **Beitreten** ein
+3. Beide wählen ihre Figur, der Host die Karte – **Los!**
+
+| | |
+|---|---|
+| 🧟 **Gemeinsame Welt** | Zombies, Wellen, Generatoren, Befehle, Ereignisse und die Evakuierung erlebt ihr zusammen |
+| 🎒 **Eigener Fortschritt** | Jeder hat seine eigenen Waffen, Beförderungen und seinen eigenen Schrott |
+| ⏳ **Bereit 1/2** | Beförderung, Nachschub und Pakte: Die Welt wartet, bis beide fertig sind |
+| 🩹 **Wiederbeleben** | Geht einer zu Boden, hilft der andere ihm auf. Erst wenn beide liegen, ist Schluss |
+| 🟢 **Immer im Blick** | Dein Mitspieler leuchtet grün – auch hinter Häusern und mitten in der Horde |
+
+<sub>Im Koop noch nicht dabei: Tagesbefehl, „Einsatz fortsetzen“ und Ebene 9.</sub>
+
+<br>
+
+<!-- ═════════════════════════ 07 ═════════════════════════ -->
+<a id="horde"></a>
+<p align="center"><img src="media/game/s07.png" alt="07 – Die Horde" width="100%"></p>
+
+<img src="media/readme/shot-feld.jpg" alt="Feldakten" width="42%" align="right">
 
 Schlurfer, Renner und Rotköter sind erst der Anfang:
 
@@ -332,8 +368,9 @@ Schlurfer, Renner und Rotköter sind erst der Anfang:
 - 🧪 **Spucker** werfen Säure
 - 🕳️ **Gräber** tauchen direkt neben dir auf
 - 📢 **Kreischer** machen alle anderen wild
+- 🪨 **Brocken** halten richtig viel aus
 
-Dazu Bosse wie **der Schlachter**, **Oberst Krüger** und **der Erstgeborene** – und jede Karte hat ihren eigenen Zombie. Alles, was du herausfindest, landet in den **Feldakten**, mit Echos persönlichen Notizen.
+Dazu Bosse wie **der Schlachter**, **Oberst Krüger** und **der Erstgeborene**, und jede Karte hat ihren eigenen Zombie: Präparat, Frostleiche, Funker, Brandstifter, Sporenträger und der Verstrahlte Riese. Alles, was du herausfindest, landet in den **Feldakten**, mit Echos persönlichen Notizen.
 
 <br clear="right">
 
@@ -342,25 +379,15 @@ Dazu Bosse wie **der Schlachter**, **Oberst Krüger** und **der Erstgeborene** �
 </p>
 
 <p align="center">
-  <img src="media/readme/arsenal.jpg" alt="Alle 17 Waffen, normal und veredelt" width="100%">
-  <br><sub><i>Alle 17 Waffen, normal und veredelt. Werte für jede Stufe findest du im <b>Lexikon</b> im Hauptmenü.</i></sub>
+  <img src="media/game/arsenal.png" alt="Alle 21 Waffen, normal und veredelt" width="100%">
+  <br><sub><i>Alle 21 Waffen, groß normal und klein veredelt. Werte für jede Stufe findest du im <b>Lexikon</b> im Hauptmenü.</i></sub>
 </p>
-
-<details>
-<summary><b>📸 Weitere Bilder</b> <sub>(Lexikon, Hauptmenü, Akte)</sub></summary>
-<br>
-<p align="center">
-  <img src="media/readme/shot-lex.jpg" alt="Das Lexikon" width="100%"><br><br>
-  <img src="media/readme/shot-menu.jpg" alt="Hauptmenü" width="100%"><br><br>
-  <img src="media/readme/shot-dossier2.jpg" alt="Die Akte: Grauheimer Tageblatt" width="100%">
-</p>
-</details>
 
 <br>
 
-<!-- ═════════════════════════ 07 ═════════════════════════ -->
+<!-- ═════════════════════════ 08 ═════════════════════════ -->
 <a id="download"></a>
-<p align="center"><img src="media/readme/h07.png" alt="Akte 07 – Ausrüstung anfordern" width="100%"></p>
+<p align="center"><img src="media/game/s08.png" alt="08 – Jetzt spielen" width="100%"></p>
 
 <table>
 <tr>
@@ -388,11 +415,24 @@ Dazu Bosse wie **der Schlachter**, **Oberst Krüger** und **der Erstgeborene** �
 >
 > **Update?** Neue Zip laden, entpacken, fertig – dein Fortschritt bleibt erhalten. (Browser- und Windows-Spielstände sind getrennt.)
 
+<div align="center">
+
+| | |
+|---|---|
+| 🖥️ **Windows** | Windows 10 oder 11 (64 Bit), Download ca. 140 MB |
+| 🌐 **Browser** | aktueller Chrome oder Edge, keine Installation |
+| 🎨 **Grafik** | eine Grafikkarte der letzten Jahre (WebGL 2) |
+| 🎮 **Eingabe** | Tastatur & Maus oder Xbox-/PlayStation-Controller |
+
+</div>
+
+<sub>Ruckelt es? Unter <b>Optionen → Grafik</b> auf <b>„Automatisch“</b> stellen – das Spiel misst im nächsten Einsatz und stellt sich passend ein.</sub>
+
 <br>
 
-<!-- ═════════════════════════ 08 ═════════════════════════ -->
+<!-- ═════════════════════════ 09 ═════════════════════════ -->
 <a id="steuerung"></a>
-<p align="center"><img src="media/readme/h08.png" alt="Akte 08 – Dienstanweisung" width="100%"></p>
+<p align="center"><img src="media/game/s09.png" alt="09 – Steuerung" width="100%"></p>
 
 <div align="center">
 
@@ -426,15 +466,77 @@ In allen Menüs: Steuerkreuz oder Stick zum Auswählen, <kbd>A</kbd> bestätigen
 
 <img src="media/readme/shot-keys.jpg" alt="Optionen: Tastenbelegung" width="100%">
 
-Unter **Optionen → Tastenbelegung** legst du jede Taste selbst fest. Unter **Grafik** wählst du eine Voreinstellung (Niedrig bis Ultra) oder lässt die **Automatik** messen. Dazu: Render-Auflösung, Lautstärken, Untertitel für den Funk, Minimap-Größe, Comic-Look und mehr.
+Unter **Optionen → Tastenbelegung** legst du jede Taste selbst fest. Unter **Grafik** wählst du eine Voreinstellung (Niedrig bis Ultra) oder lässt die **Automatik** messen. Dazu: Render-Auflösung, Lautstärken, Untertitel für den Funk, Minimap-Größe, Comic-Look, **Eigene Figur hervorheben** und mehr.
 
 </details>
 
 <br>
 
-<!-- ═════════════════════════ 09 ═════════════════════════ -->
+<!-- ═════════════════════════ 10 ═════════════════════════ -->
+<a id="faq"></a>
+<p align="center"><img src="media/game/s10.png" alt="10 – Fragen & Antworten" width="100%"></p>
+
+<details>
+<summary><b>💰 Was kostet das Spiel?</b></summary>
+<br>
+
+Nichts. ROTFALL ist während der Entwicklung kostenlos spielbar, im Browser und als Windows-Version.
+</details>
+
+<details>
+<summary><b>💻 Läuft das Spiel auf meinem PC?</b></summary>
+<br>
+
+Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, stell unter **Optionen → Grafik** auf **„Automatisch“**. Siehe auch die [Systemanforderungen](#download).
+</details>
+
+<details>
+<summary><b>🤝 Wie spiele ich mit einem Freund?</b></summary>
+<br>
+
+Hauptmenü → **Koop** → **Raum erstellen**. Den Code schickst du deinem Freund, er wählt **Beitreten** und tippt ihn ein. Ihr könnt beide die Browser- oder die Windows-Version nutzen, nur die Version muss gleich sein. Mehr dazu [oben](#koop).
+</details>
+
+<details>
+<summary><b>🔍 Ich verliere meine Figur in der Horde aus den Augen.</b></summary>
+<br>
+
+Unter **Optionen → Anzeige → „Eigene Figur hervorheben“** bekommt deine Figur einen gelben Umriss, und hinter Häusern oder Zombies siehst du ihre Silhouette. Standardmäßig ist das an.
+</details>
+
+<details>
+<summary><b>⏸️ Kann ich einen Einsatz unterbrechen?</b></summary>
+<br>
+
+Ja. Geh ins Hauptmenü oder schließ das Spiel – beim nächsten Start steht oben **„Weitermachen“**. Waffen, Perks, Schrott und Dienstgrad bleiben, eine angefangene Welle startet neu. Nicht beim Tagesbefehl und im Koop.
+</details>
+
+<details>
+<summary><b>🌍 Gibt es das Spiel auf Englisch?</b></summary>
+<br>
+
+Ja, und in sechs weiteren Sprachen: **Deutsch · English · Español · Français · Português (BR) · Русский · 简体中文 · 日本語**. Umstellen unter **Optionen → Anzeige → „Sprache · Language“**.
+</details>
+
+<details>
+<summary><b>🎮 Kann ich mit Controller spielen?</b></summary>
+<br>
+
+Ja. Xbox- und PlayStation-Controller funktionieren im Spiel und in allen Menüs – einstecken oder per Bluetooth verbinden und eine Taste drücken.
+</details>
+
+<details>
+<summary><b>💾 Geht mein Fortschritt beim Update verloren?</b></summary>
+<br>
+
+Nein. Figuren, Skins, Splitter, Lager, Erfolge und Meisterschaft bleiben erhalten.
+</details>
+
+<br>
+
+<!-- ═════════════════════════ 11 ═════════════════════════ -->
 <a id="community"></a>
-<p align="center"><img src="media/readme/h09.png" alt="Akte 09 – Funkkontakt" width="100%"></p>
+<p align="center"><img src="media/game/s11.png" alt="11 – Community" width="100%"></p>
 
 <p align="center">
   Neue Versionen, Testaufrufe, Clips und direkter Draht zu Pascal:
@@ -459,54 +561,6 @@ Unter **Optionen → Tastenbelegung** legst du jede Taste selbst fest. Unter **G
   <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=2-idee.yml"><img src="media/readme/btn-idea.png" alt="Idee einreichen" height="44"></a>
   <br><sub>Bei Fehlern im Spiel <kbd>F8</kbd> drücken – das kopiert einen Bericht, den du einfach einfügst. Ohne GitHub-Konto? Ab damit in den Discord.</sub>
 </p>
-
-<br>
-
-<!-- ═════════════════════════ 10 ═════════════════════════ -->
-<a id="faq"></a>
-<p align="center"><img src="media/readme/h10.png" alt="Akte 10 – Rückfragen" width="100%"></p>
-
-<details>
-<summary><b>💻 Läuft das Spiel auf meinem PC?</b></summary>
-<br>
-
-Windows 10 oder 11 (64 Bit) und eine Grafikkarte der letzten Jahre reichen. Ruckelt es, stell unter **Optionen → Grafik** auf **„Automatisch“** – das Spiel misst im nächsten Einsatz und stellt sich passend ein.
-</details>
-
-<details>
-<summary><b>🤝 Wie spiele ich mit einem Freund?</b></summary>
-<br>
-
-Hauptmenü → **Koop** → **Raum erstellen**. Den Code schickst du deinem Freund, er wählt **Beitreten** und tippt ihn ein. Ihr könnt beide die Browser- oder die Windows-Version nutzen, nur die Version muss gleich sein. Mehr dazu [oben](#koop).
-</details>
-
-<details>
-<summary><b>⏸️ Kann ich einen Einsatz unterbrechen?</b></summary>
-<br>
-
-Ja. Geh ins Hauptmenü oder schließ das Spiel – beim nächsten Start steht oben **„Einsatz fortsetzen“**. Waffen, Perks, Schrott und Dienstgrad bleiben, eine angefangene Welle startet neu. Nicht beim Tagesbefehl und im Koop.
-</details>
-
-<details>
-<summary><b>🌍 Gibt es das Spiel auf Englisch?</b></summary>
-<br>
-
-Ja, und in sechs weiteren Sprachen: **Deutsch · English · Español · Français · Português (BR) · Русский · 简体中文 · 日本語**. Umstellen unter **Optionen → Anzeige → „Sprache · Language“**.
-</details>
-
-<details>
-<summary><b>🎮 Kann ich mit Controller spielen?</b></summary>
-<br>
-
-Ja. Xbox- und PlayStation-Controller funktionieren im Spiel und in allen Menüs – einstecken oder per Bluetooth verbinden und eine Taste drücken.
-</details>
-
-<details>
-<summary><b>💾 Geht mein Fortschritt beim Update verloren?</b></summary>
-<br>
-
-Nein. Charaktere, Skins, Splitter, Lager, Erfolge und Meisterschaft bleiben erhalten.
-</details>
 
 <br>
 
