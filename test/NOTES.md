@@ -12,6 +12,7 @@
   - **Einsteigen:** Du fliegst in einer kurzen Szene aus der Karte, danach kommt der Abschlussbericht.
   - **Endlos:** Der Helikopter fliegt allein weg, und du spielst weiter.
   - Auf Fort Granit macht das Flugzeug dasselbe.
+  - Der Helikopter fliegt jetzt beim Anflug und Abflug mit der Nase voraus, das Cockpit ist besser zu erkennen.
 - **Power-Ups** sind jetzt golden markiert (Lichtsäule, gestrichelter Ring) und auf der Minimap zu sehen. Man kann sie nicht mehr mit grünen Säureflächen verwechseln.
 - **Pausemenü (ESC):** Zeigt alle Waffen, Upgrades, Perks, Pakte, deine Fähigkeit und Verbündete. Mit der Maus drüberfahren zeigt eine kurze Erklärung.
 
