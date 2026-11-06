@@ -1,11 +1,16 @@
-**Grauheim komplett neu + keine unsichtbaren Wände mehr (Test)**
+**Alle Karten neu oder überarbeitet + mehr FPS (Test)**
 
-- **Grauheim** hat einen neuen Grundriss: Ein Kanal teilt die Stadt. Start am Marktplatz (Rathaus mit Uhrturm), Tore zur Hauptstraße (West) und zum Kinoviertel (Ost). Stadtpark und Grand Hotel im Norden erreicht man nur über die zwei Brücken (die Barrikaden stehen auf den Brücken). Die Mittelbrücke ist eingestürzt.
-- **Kaufhaus** an der Hauptstraße: unten offen, man kann durchlaufen. Sobald man drin ist, verschwinden die oberen Etagen, damit man alles sieht.
-- Gassen, Hinterhof im Kinoviertel, Straßenbahngleise, Leuchtschilder
-- **Hitboxen auf allen Karten:** Zäune neben freigekauften Toren haben keine Luft-Wand mehr. Jedes Fass hat seine eigene Hitbox, runde Dinge (Hügel, Brunnen, Kuppel, Trümmerhaufen) haben runde Hitboxen. Auf Fort Granit bleibt man nicht mehr neben den Betonsperren hängen.
+- **Fort Granit** ist jetzt ein Flugfeld: Eine Startbahn läuft quer übers Plateau. Start an der Kommandozentrale, Kaserne und Panzerdepot links und rechts, die Hangars im Norden. Am Ende landet ein **Transportflugzeug** auf der Startbahn statt des Hubschraubers.
+- **Kessel 9:** Ein Fluss teilt das Tal, zwei Brücken mit Toren, der Labortrakt steht auf einer Terrasse. Neu: ein **Güterzug ohne Fahrer** fährt ab Welle 2 regelmäßig durch. 8 Sekunden vorher blinken die Signale und die Glocke läutet. Zombies auf dem Gleis sind sofort weg – du verlierst ein gutes Drittel Leben, wenn er dich erwischt.
+- **Wolfsgrund:** In der Mitte liegt ein **zugefrorener See**, das Dorf steht am Nordufer, die Kirche auf dem Hügel (zwei Friedhofsmauern, der Weg hoch ist eine Serpentine), das Sägewerk am Bach, der Bahnhof im Süden. Neu: **Explosionen brechen das Eis** (Granaten, Mörser, Minen, Bomber …). Zombies im Eisloch versinken, du wirst im Wasser langsam und frierst. Zur nächsten Welle friert alles wieder zu. Der Hubschrauber landet auf dem See.
+- **Grauheim** (wie in der letzten Testversion): Kanal, Brücken, Kaufhaus zum Durchlaufen.
+- **Seuchenwald:** Bohlenwege übers Giftmoor (auf den Brettern kein Gift), leuchtender Pilzring, Kapellenruine, Hochsitze.
+- **Atomwüste:** Eine Schlucht mit Hängebrücke teilt die Absturzstelle.
+- **Ebene 9:** Die Rotium-Lachen waren unsichtbar, haben aber Schaden gemacht – jetzt sieht man sie, in der Reaktorhalle mit Gitterrost-Stegen.
+- **Mehr FPS auf allen Karten:** viel weniger Zeichenaufrufe, gleiche Optik.
+- **Hitboxen:** keine Luft-Wände mehr neben freigekauften Toren, jedes Fass hat seine eigene Hitbox, runde Dinge haben runde Hitboxen.
 
-**Worauf achten:** Bleibt ihr irgendwo an Luft hängen oder lauft durch etwas durch? (Karte + grob wo). Wie spielt sich Grauheim, ist es zu eng oder zu weit?
+**Worauf achten:** Bleibt ihr irgendwo an Luft hängen oder lauft durch etwas durch? (Karte + grob wo). Ist der Zug oder das Eis zu stark/zu schwach? Wie viele FPS habt ihr im Vergleich zu vorher?
 
 **Neue Sounds für Waffen und Figuren (Test)**
 
