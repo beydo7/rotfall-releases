@@ -1,9 +1,11 @@
-**Waffenhaltung, Überlebende und „Figur hervorheben“ (Test)**
+**Neue Sounds für Waffen und Figuren (Test)**
 
-- Alle Figuren halten ihre Waffen jetzt waagerecht nach vorn statt schräg nach unten
-- Lange Waffen (Flinte, MP, Armbrust, Tesla, Kältegewehr, Flammenwerfer, Granatwerfer, Schwerkraftwerfer) werden mit zwei Händen gehalten
-- Double D hält die Waffe am Bauch vorbei, Oma trägt die Gitarre umgehängt
-- Überlebende, Verbündete und der Gejagte haben jetzt auch die neuen Modelle: Sie winken im Käfig, schrauben am Generator, rennen und schauen sich um
-- Neue Option „Eigene Figur hervorheben“ (Optionen): gelber Umriss um deine Figur, und wenn etwas vor dir steht, siehst du deine Silhouette. Dein Koop-Mitspieler leuchtet grün. Stufen: Umriss + hinter Hindernissen / Nur Umriss / Aus
+- Armbrust, Kreissägen und Rotium-Aura haben jetzt eigene Töne (Aura nur ein leises Brummen, solange Zombies drinstehen)
+- Oma Gertrud: Wollknäuel-Wurf, Handtaschenschlag, Kuchen mit Küchenwecker
+- Krümel: Wurfgeräusch plus eigene Treffer für Dose, Glühbirne, Ei, Wecker und Kühlschrank; Mülltonne und Rollen
+- Johnny Fuzz: echte E-Gitarre bei jedem Schallring (veredelt tiefer) und ein Gitarrensolo bei Q
+- Juri Sokol: Schwerkraftwerfer mit Abschuss und Implosion, Raketenrucksack mit Schub
+- Double D zieht hörbar (leise) an der Vape
+- Menü: überall nur noch ein Hover-Ton und ein Klick-Ton, ein Klick klingt nicht mehr doppelt
 
-**Worauf achten:** Findest du deine Figur im Getümmel besser? Stört der Umriss irgendwo? Sitzen die Waffen in beiden Händen richtig?
+**Worauf achten:** Ist etwas zu laut oder nervt auf Dauer (Sägen, Gitarre, Geklautes Zeug)? Geht ein Ton im Getümmel unter?
