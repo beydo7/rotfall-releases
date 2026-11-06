@@ -1,3 +1,12 @@
+**Grauheim komplett neu + keine unsichtbaren Wände mehr (Test)**
+
+- **Grauheim** hat einen neuen Grundriss: Ein Kanal teilt die Stadt. Start am Marktplatz (Rathaus mit Uhrturm), Tore zur Hauptstraße (West) und zum Kinoviertel (Ost). Stadtpark und Grand Hotel im Norden erreicht man nur über die zwei Brücken (die Barrikaden stehen auf den Brücken). Die Mittelbrücke ist eingestürzt.
+- **Kaufhaus** an der Hauptstraße: unten offen, man kann durchlaufen. Sobald man drin ist, verschwinden die oberen Etagen, damit man alles sieht.
+- Gassen, Hinterhof im Kinoviertel, Straßenbahngleise, Leuchtschilder
+- **Hitboxen auf allen Karten:** Zäune neben freigekauften Toren haben keine Luft-Wand mehr. Jedes Fass hat seine eigene Hitbox, runde Dinge (Hügel, Brunnen, Kuppel, Trümmerhaufen) haben runde Hitboxen. Auf Fort Granit bleibt man nicht mehr neben den Betonsperren hängen.
+
+**Worauf achten:** Bleibt ihr irgendwo an Luft hängen oder lauft durch etwas durch? (Karte + grob wo). Wie spielt sich Grauheim, ist es zu eng oder zu weit?
+
 **Neue Sounds für Waffen und Figuren (Test)**
 
 - Armbrust, Kreissägen und Rotium-Aura haben jetzt eigene Töne (Aura nur ein leises Brummen, solange Zombies drinstehen)
