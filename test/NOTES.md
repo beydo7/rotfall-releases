@@ -1,9 +1,13 @@
-**Vier neue Charaktere** – bitte ausprobieren:
-- **Oma Gertrud** – Wollknäuel fesselt Zombies aneinander (Schaden an einem trifft alle). Q: Kuchen lockt die Horde weg. Statt Ausweichen: Handtaschenschlag! Frei nach 50 Einsätzen.
-- **Krümel** (Rotium-Waschbär) – wirft zufälliges geklautes Zeug (Dose, Gabel, Glühbirne, Ei, Socke). Q: in die Mülltonne und durch die Horde rollen. Frei: Wunderkiste 25× benutzen.
-- **Johnny Fuzz** – E-Gitarre mit Schallringen. Q: Gitarrensolo, alle Waffen doppelt so schnell. Frei: Kill-Serie 100.
-- **Major Juri Sokol** (Kosmonaut) – Schwerkraftwerfer saugt Zombies zusammen. Q: Raketenrucksack mit Einschlag. Springt höher. Frei: Welle 10 in der Atomwüste.
-- Die 4 neuen Waffen gibt es auch für alle anderen, jede mit Weiterentwicklung.
-- Neues Hauptmenü (Leiste links, Discord, Credits) ist auch drin.
+**Oma Gertrud – Deluxe-Version (Test)**
 
-Worauf achten: Sind die Neuen zu stark oder zu schwach? Fühlen sich Kuchen, Tonne, Solo und Raketenrucksack gut an?
+Oma Gertrud ist die erste Figur mit einem komplett neuen Modell und neuen Animationen. Wenn sie gut ankommt, bekommen alle anderen Figuren das auch.
+
+- Runde Gelenke: Ellbogen, Knie, Schultern und Taille biegen sich weich statt zu knicken
+- Mehr Details: Dauerwelle mit zwei Stricknadeln im Dutt, runde Brille, Perlenkette, Brosche, Ohrringe, Lachfalten, Strickjacke mit Wollknäuel in der Tasche, Tupfenkleid, Klett-Schuhe
+- Neuer Gang: kleine Trippelschritte mit Hüftschwung, lehnt sich in Kurven, federt nach Sprüngen
+- Sie blinzelt, Rock und Handtasche schwingen nach
+- Handtaschenschlag (Shift): holt richtig aus und haut drauf
+- Bleibt sie kurz stehen, fängt sie an zu stricken (auch im Hauptmenü)
+- Skins: Kittelschürze mit Schürze, Rocker-Oma mit Sonnenbrille
+
+**Worauf achten:** Sieht irgendwas komisch aus (Arme, Beine, Rock, Tasche)? Ruckelt es mit Oma mehr als mit anderen Figuren?
