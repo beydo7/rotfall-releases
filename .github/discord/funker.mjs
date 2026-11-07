@@ -2,7 +2,7 @@
 // Aufruf (aus .github/workflows/discord.yml):
 //   node funker.mjs release   → Patchnotes + Download-Link (Ereignis „release“ oder neuestes Release)
 //   node funker.mjs playtest  → Aufruf zur neuen Testversion
-//   node funker.mjs social    → neue YouTube-Videos / TikToks (Zustand in state.json)
+//   node funker.mjs social    → neue YouTube-Videos und Shorts (Zustand in state.json)
 //   node funker.mjs test      → je eine Probe-Nachricht in alle eingerichteten Kanäle
 // Webhooks/IDs kommen aus Umgebungsvariablen (GitHub Secrets / Variables).
 
@@ -127,7 +127,7 @@ async function playtest() {
   }] }, env('ROLE_PLAYTEST'));
 }
 
-// ---------- YouTube & TikTok ----------
+// ---------- YouTube (Videos + Shorts) ----------
 function parseFeed(xml) {
   const items = [];
   const re = /<(entry|item)\b[\s\S]*?<\/\1>/g;
@@ -162,7 +162,6 @@ async function social() {
   const state = existsSync('state.json') ? JSON.parse(readFileSync('state.json', 'utf8')) : {};
   const sources = [
     { key: 'youtube', url: await youtubeFeed(), text: (it) => `📺 **Neues Video:** ${it.title}\n${it.link}` },
-    { key: 'tiktok', url: env('TIKTOK_FEED') || null, text: (it) => `🎵 **Neues TikTok!**${it.title ? ' ' + it.title.slice(0, 150) : ''}\n${it.link}` },
   ];
   for (const s of sources) {
     if (!s.url) { console.log(`– ${s.key}: nicht eingerichtet`); continue; }
@@ -197,7 +196,7 @@ async function test() {
   await probe('DISCORD_PATCHNOTES', 'Patchnotes zu jeder neuen Version');
   await probe('DISCORD_DOWNLOAD', 'Download-Links zu jeder neuen Version');
   await probe('DISCORD_PLAYTEST', 'Aufrufe zu neuen Testversionen');
-  await probe('DISCORD_VIDEOS', 'neue YouTube-Videos und TikToks');
+  await probe('DISCORD_VIDEOS', 'neue YouTube-Videos und Shorts');
 }
 
 const cmd = process.argv[2];

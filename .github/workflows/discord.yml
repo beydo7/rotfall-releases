@@ -1,9 +1,9 @@
 # ROTFALL Funker: schickt Neuigkeiten automatisch in den Discord.
 # - neues Release      → Patchnotes (#patchnotes) + Download-Link (#download)
 # - Push nach test/    → Testaufruf (#playtest); Text aus test/NOTES.md, sonst Commit-Nachricht
-# - alle 30 Minuten    → neue YouTube-Videos / TikToks (#videos)
+# - regelmäßig        → neue YouTube-Videos und Shorts (#videos)
 # Secrets:   DISCORD_PATCHNOTES, DISCORD_DOWNLOAD, DISCORD_PLAYTEST, DISCORD_VIDEOS (Webhook-Adressen)
-# Variables: YOUTUBE (@Handle oder Kanal-ID), TIKTOK_FEED (Feed-Adresse von rss.app),
+# Variables: YOUTUBE (@Handle oder Kanal-ID),
 #            ROLE_PATCH, ROLE_PLAYTEST, ROLE_VIDEOS (Rollen-IDs zum Pingen, optional)
 # Von Hand: Actions → Discord → „Run workflow“ (z. B. „test“ für eine Funkprobe).
 name: Discord
@@ -31,7 +31,6 @@ env:
   DISCORD_PLAYTEST: ${{ secrets.DISCORD_PLAYTEST }}
   DISCORD_VIDEOS: ${{ secrets.DISCORD_VIDEOS }}
   YOUTUBE: ${{ vars.YOUTUBE }}
-  TIKTOK_FEED: ${{ vars.TIKTOK_FEED }}
   ROLE_PATCH: ${{ vars.ROLE_PATCH }}
   ROLE_PLAYTEST: ${{ vars.ROLE_PLAYTEST }}
   ROLE_VIDEOS: ${{ vars.ROLE_VIDEOS }}
