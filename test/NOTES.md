@@ -1,19 +1,29 @@
-**Brücken, Kisten und Schilder repariert (Test)**
+**Karten-Ausbau: Stellungen, Fallen, Rundwege, mehr Platz (Test)**
 
-- **Brücken neu gebaut:** Kein Riesenhügel mehr an den Auffahrten, man läuft flach drüber.
-  - Kessel 9 hat Holzbrücken auf Steinpfeilern.
-  - Grauheim hat Steinbogenbrücken mit Geländer.
-  - Wolfsgrund hat verschneite Holzstege.
-  - Die Atomwüste hat eine Stahlbrücke der Armee.
-- **Wunderkiste:** Der Deckel klappt jetzt richtig nach hinten auf, statt schief in der Luft zu schweben. Innen leuchtet es, und die Kiste zeigt mit der Vorderseite zur freien Seite.
-- **Vorratskiste:** Sie klappt mit Goldfunken auf, bevor die Belohnung kommt.
-- **Barrikaden** brechen beim Freikaufen sichtbar zusammen.
-- **Schilder:**
-  - Kein Text wird mehr abgeschnitten (QUARANTÄNE, STRAHLUNG, FAHRZEUGDEPOT …), auch nicht in anderen Sprachen.
-  - Pfosten gehen nicht mehr mitten durch die Schrift.
-  - Wegweiser stehen jetzt an jedem Tor auf der Seite, von der du kommst, und sind nicht mehr hinter Zäunen oder Felsen versteckt.
-  - Das Schild „EBENE 9“ zeigt zu dir statt in den Aufzugsschacht.
-- **Perk-Automaten:** Die Kürzel sind übersetzt. In Kessel 9 schaut „Zweite Chance“ nicht mehr auf einen Güterwagen.
-- Der **Siegestext** passt jetzt zur Karte, zum Beispiel das Flugzeug auf Fort Granit.
+- **Stellungen:** Jede Karte hat jetzt eine Anhöhe mit Rampe (gelbes ▲ auf der Minimap).
+  - Kessel 9 hat eine Flakstellung, Wolfsgrund eine Holzbühne im Sägewerk.
+  - Fort Granit hat eine Feuerstellung in der Kaserne, Grauheim einen Hochbahnsteig an der Straßenbahn.
+  - Im Seuchenwald gibt es eine Felskanzel, in der Atomwüste eine Pumpenplattform, auf Ebene 9 eine Laderampe.
+  - Oben machen deine Waffen **15 % mehr Schaden** (▲ im HUD).
+  - Zombies kommen nur über die Rampe hoch und sind dort langsamer.
+  - In Welle 3, 9 und 15 wird oben eine Vorratskiste abgeworfen.
+- **Fallen:** Oben neben der Rampe steht ein Schalter. Für Schrott läuft die Falle 12 Sekunden, danach lädt sie 30 Sekunden nach. Jede Karte hat ihre eigene Falle:
+  - Kessel 9: Starkstromgitter
+  - Wolfsgrund: Sägeblätter
+  - Fort Granit: Kerosinrinne
+  - Grauheim: Oberleitung, die auf die Rampe fällt
+  - Seuchenwald: Gasdüsen
+  - Atomwüste: Dampf, der die Zombies runterschubst
+  - Ebene 9: Tesla-Spulen
 
-**Worauf achten:** Laufen sich die Brücken gut, oder bleibt man irgendwo hängen? Seht ihr irgendwo noch ein Schild, das verdeckt, abgeschnitten oder falsch herum ist? Öffnen sich Wunderkiste und Vorratskiste sauber?
+  Achtung: Wer selbst auf der Rampe steht, wird auch getroffen!
+- **Rundwege:** Neue Tore, damit es keine Sackgassen mehr gibt.
+  - Wolfsgrund: Kirchberg ↔ Bahnhof
+  - Fort Granit: Kaserne und Panzerdepot → Startbahn
+  - Grauheim: ein Torbogen zwischen Stadtpark und Hotel
+  - Seuchenwald: Moor ↔ Funkstation
+- **Mehr Platz zum Ausweichen:** Jede Karte hat freie Kampfplätze. Zufällige Kisten, Fässer und Wäldchen stehen jetzt eher an Wänden und Häusern statt mitten im Weg.
+  - Der Marktplatz in Grauheim ist offener.
+  - Im Seuchenwald gibt es weniger Bäume und mehr Lichtungen.
+
+**Worauf achten:** Lohnt sich die Stellung, oder ist man oben zu schnell eingekesselt? Sind die Fallen zu stark, zu schwach oder zu teuer? Bleibt ihr an der Rampe, am Torbogen oder an den neuen Toren irgendwo hängen? Fühlen sich die Karten jetzt offener an?
