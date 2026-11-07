@@ -16,6 +16,7 @@
 - **Power-Ups** sind jetzt golden markiert (Lichtsäule, gestrichelter Ring) und auf der Minimap zu sehen. Man kann sie nicht mehr mit grünen Säureflächen verwechseln.
 - **Minimap flüssiger:** Sie dreht und bewegt sich jetzt ohne Ruckeln mit und ist schärfer.
 - **Lexikon neu gestaltet:** Es sieht jetzt aus wie ein geheimes Aktenarchiv, mit Aktenreitern, nummerierten Karteikarten, Aktenzeichen, Stempeln und kleinen Animationen.
+- **Optionen im selben Stil:** Aktenreiter, Stempel, die Gruppen gleiten beim Wechseln herein, und Kippschalter statt Häkchen.
 - **Pausemenü (ESC):** Zeigt alle Waffen, Upgrades, Perks, Pakte, deine Fähigkeit und Verbündete. Mit der Maus drüberfahren zeigt eine kurze Erklärung.
 
 **Worauf achten:** Ist es ab Welle 10 zu schwer oder noch zu leicht? Wie fühlt sich die Witterung an, wenn man steht? Läuft die Evakuierung sauber (Countdown, Landung, Abflug-Szene, Endlos)? Bleiben Hunde, die Wissenschaftlerin oder Zombies noch irgendwo hängen? Läuft die Minimap beim Drehen jetzt flüssig, und habt ihr gleich viele FPS wie vorher?
