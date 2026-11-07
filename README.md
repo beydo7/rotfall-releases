@@ -39,7 +39,7 @@
 <summary><b>🇬🇧 English summary</b></summary>
 <br>
 
-**ROTFALL** is a free 3D zombie survival roguelite set in the Cold War, autumn 1968. Think *Megabonk* meets the zombie mode of *Call of Duty*: your weapons fire on their own, you dodge, loot, upgrade and decide. Survive 20 waves, power up the generators, forge your weapons in the Rotium forge and hold the landing zone until the helicopter takes off.
+**ROTFALL** is a free 3D zombie survival roguelite set in the Cold War, autumn 1968. Think *Megabonk* meets the zombie mode of *Call of Duty*: your weapons fire on their own, you dodge, loot, upgrade and decide. Survive 20 waves, power up the generators, forge your weapons in the Rotium forge, then hold out until the helicopter lands and get aboard – or stay for endless mode.
 
 - 15 playable characters, each with its own weapon, ability and personality
 - 21 weapons with 21 evolutions, perk machines, a mystery box and generators
@@ -91,6 +91,8 @@ Woher Echo das alles weiß? Darüber denkst du später nach. **Jetzt kommen sie.
   <img src="media/game/loop.png" alt="Überleben, Aufrüsten, Karte erobern, Rauskommen" width="100%">
 </p>
 
+Nach Welle 20 funkt der Pilot: **Der Helikopter kommt in einer Minute.** Überleb bis zur Landung, halte 10 Sekunden die Landezone, dann entscheidest du: **einsteigen und abfliegen** oder bleiben und im **Endlos-Modus** weiterkämpfen.
+
 Zwischen den Wellen bekommst du im **Nachschub** eine kurze Atempause: Waffen kaufen, Upgrades zurücklegen, vergleichen, weiter. Mitten im Kampf funkt **Echo** dazwischen: Halte diese Stellung, töte so viele Zombies in 40 Sekunden, bring den Generator ans Netz. Schaffst du es nicht, löscht ein Rotium-Schlag alles aus.
 
 <details>
@@ -105,8 +107,8 @@ flowchart LR
     B --> D[🛒 Nachschub<br/>nach jeder Welle]
     D --> E[🚪 Trümmer räumen<br/>⚙️ Generatoren starten<br/>🔥 Waffe schmieden]
     E --> A
-    A -. Welle 20 .-> F[🚁 Landezone<br/>30 s halten]
-    F --> G([Evakuieren<br/>oder Endlos-Modus])
+    A -. Welle 20 .-> F[🚁 Helikopter in 1:00<br/>dann 10 s Landezone halten]
+    F --> G([Einsteigen & abfliegen<br/>oder Endlos-Modus])
 ```
 
 </details>
@@ -214,6 +216,26 @@ Wie im CoD-Zombie-Modus: **Trümmer räumen**, neue Gebiete öffnen, **vier Gene
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+**🚁 Evakuierung**<br>
+<sub>Der Helikopter landet nach einer Minute. 10 Sekunden in der Landezone, dann einsteigen oder weiterkämpfen.</sub>
+
+</td>
+<td valign="top">
+
+**🐕 Treue Begleiter**<br>
+<sub>Rex-Hunde jagen im Rudel, gerettete Soldaten kämpfen mit, die Wissenschaftlerin hält einen Generator am Laufen.</sub>
+
+</td>
+<td valign="top">
+
+**🏃 Bleib in Bewegung**<br>
+<sub>Wer sich eingräbt, wird gewittert. Stehenbleiben und alles automatisch erledigen lassen reicht nicht.</sub>
+
+</td>
+</tr>
 </table>
 
 <table>
@@ -228,6 +250,22 @@ Wie im CoD-Zombie-Modus: **Trümmer räumen**, neue Gebiete öffnen, **vier Gene
 
 ### 🛒 Der Nachschub
 <img src="media/readme/shot-shop.jpg" alt="Nachschub mit Schloss und Waffenvergleich">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📖 Das Lexikon
+<img src="media/readme/shot-lexicon.jpg" alt="Das Lexikon im Stil einer Geheimakte">
+<sub>Alle Waffen, Weiterentwicklungen, Perks, Pakte und Grundlagen als Geheimakten, mit Werten für jede Stufe.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ⏸️ Alles auf einen Blick
+<img src="media/readme/shot-pause.jpg" alt="Pausemenü mit Waffen, Upgrades, Perks und Pakten">
+<sub>Im Pausemenü siehst du deine ganze Ausrüstung. Maus drüber zeigt eine kurze Erklärung.</sub>
 
 </td>
 </tr>
@@ -444,7 +482,7 @@ Dazu Bosse wie **der Schlachter**, **Oberst Krüger** und **der Erstgeborene**, 
 | Benutzen | <kbd>E</kbd> | <kbd>X</kbd> / <kbd>▢</kbd> |
 | Spezialfähigkeit | <kbd>Q</kbd> / Rechtsklick | <kbd>Y</kbd> / <kbd>△</kbd> |
 | Werte-Übersicht (halten) | <kbd>Tab</kbd> | <kbd>L3</kbd> |
-| Pause | <kbd>Esc</kbd> | <kbd>Start</kbd> |
+| Pause · Übersicht deiner Ausrüstung | <kbd>Esc</kbd> | <kbd>Start</kbd> |
 
 </div>
 
