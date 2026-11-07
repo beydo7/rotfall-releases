@@ -1,10 +1,19 @@
-**Neue Bäume (Test)**
+**Brücken, Kisten und Schilder repariert (Test)**
 
-- Kiefern haben jetzt ausgefranste, leicht hängende Äste mit dunkler Unterseite und hellen Spitzen statt glatter Kegel
-- Auf Wolfsgrund liegt Schnee auf den Ästen
-- Laubbäume (Seuchenwald, Grauheim, Fort Granit) mit Astgabeln und einer Krone aus mehreren Blätterklumpen
-- Alle Bäume wiegen sich im Wind – bei Sturm stärker, bei Nebel kaum
-- Jeder Baum hat einen leicht anderen Farbton
-- Behoben: Baumspitzen schwebten bei manchen Kiefern über dem Baum, Äste bei toten Bäumen setzten neben dem Stamm an
+- **Brücken neu gebaut:** Kein Riesenhügel mehr an den Auffahrten, man läuft flach drüber.
+  - Kessel 9 hat Holzbrücken auf Steinpfeilern.
+  - Grauheim hat Steinbogenbrücken mit Geländer.
+  - Wolfsgrund hat verschneite Holzstege.
+  - Die Atomwüste hat eine Stahlbrücke der Armee.
+- **Wunderkiste:** Der Deckel klappt jetzt richtig nach hinten auf, statt schief in der Luft zu schweben. Innen leuchtet es, und die Kiste zeigt mit der Vorderseite zur freien Seite.
+- **Vorratskiste:** Sie klappt mit Goldfunken auf, bevor die Belohnung kommt.
+- **Barrikaden** brechen beim Freikaufen sichtbar zusammen.
+- **Schilder:**
+  - Kein Text wird mehr abgeschnitten (QUARANTÄNE, STRAHLUNG, FAHRZEUGDEPOT …), auch nicht in anderen Sprachen.
+  - Pfosten gehen nicht mehr mitten durch die Schrift.
+  - Wegweiser stehen jetzt an jedem Tor auf der Seite, von der du kommst, und sind nicht mehr hinter Zäunen oder Felsen versteckt.
+  - Das Schild „EBENE 9“ zeigt zu dir statt in den Aufzugsschacht.
+- **Perk-Automaten:** Die Kürzel sind übersetzt. In Kessel 9 schaut „Zweite Chance“ nicht mehr auf einen Güterwagen.
+- Der **Siegestext** passt jetzt zur Karte, zum Beispiel das Flugzeug auf Fort Granit.
 
-**Worauf achten:** Wie sehen die Bäume aus? Laufen die FPS gleich gut wie vorher? Seht ihr irgendwo Bäume in der Luft oder im Boden?
+**Worauf achten:** Laufen sich die Brücken gut, oder bleibt man irgendwo hängen? Seht ihr irgendwo noch ein Schild, das verdeckt, abgeschnitten oder falsch herum ist? Öffnen sich Wunderkiste und Vorratskiste sauber?
