@@ -10,5 +10,6 @@
   - Orden mit Band und Bronze/Silber/Gold, nach Themen sortiert
   - Fortschrittsbalken (z. B. 3 von 7 Gartenzwergen) und Filter (Offen / Erreicht / Schalten Figuren frei)
   - Bild der Figur, die man damit freischaltet, und ein „NEU“-Stempel für frisch erreichte Auszeichnungen
+- **Bademeister Horst** stemmt jetzt richtig die Hände in die Hüften (vorher zeigten die Ellbogen nach innen)
 
 **Worauf achten:** Fühlt sich der Start mit 3 Figuren gut an? Sind die Preise der Kauf-Figuren okay? Ist die neue Auszeichnungen-Seite übersichtlich?
