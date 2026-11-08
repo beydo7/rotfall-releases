@@ -1,12 +1,14 @@
-**Zehn neue Charaktere – Feinschliff an den Figuren (Test)**
+**Neue Freischalt-Reihenfolge + Auszeichnungen neu gestaltet (Test)**
 
-- Gustav: Die Zipfelmütze ist jetzt aus einem Stück (die Spitze schwebte vorher über dem Kopf) und knickt nach hinten. Dazu weißes Haar unter der Mütze
-- Gerd: ordentlicher Seitenscheitel statt Haarklotz
-- Tobias Tick: runder Haarkranz statt flacher Platten am Kopf
-- Hauptmann Vogt: das schwebende Schalende am Rücken ist weg
-- Horst hat eine dickere Schwimmnudel, Klaus einen richtigen Staubsauger
-- Klaus' Skin „Karo-Sakko“ hat jetzt wirklich Karos
+- **Zum Start:** Erik Brandt, Dr. Ilse Varga und Pjotr Volkov
+- **Mit Splittern kaufen:** Champurai (500 ◆), Krümel (750 ◆), Johnny Fuzz (1000 ◆), Double D (1250 ◆), Delulu (1500 ◆)
+- **Alle anderen** über Auszeichnungen
+- **Wer schon gespielt hat,** behält Delulu, Champurai und Double D. Krümel und Johnny bleiben ebenfalls, wenn ihr sie schon freigespielt hattet.
+- **Dr. Nadja Orlowa** gibt es jetzt über „Roter Mond“: insgesamt 3 Blutmond-Nächte überstehen
+- **Bademeister Horst:** Die Beschreibung sagt jetzt, welche Waffen zählen. Schrotflinte und E-Gitarre zählen ab sofort auch.
+- **Auszeichnungen-Seite komplett neu:**
+  - Orden mit Band und Bronze/Silber/Gold, nach Themen sortiert
+  - Fortschrittsbalken (z. B. 3 von 7 Gartenzwergen) und Filter (Offen / Erreicht / Schalten Figuren frei)
+  - Bild der Figur, die man damit freischaltet, und ein „NEU“-Stempel für frisch erreichte Auszeichnungen
 
-Alles andere wie in der letzten Testversion: zehn neue Charaktere mit eigenen Waffen, Fähigkeiten und Auszeichnungen.
-
-**Worauf achten:** Sieht bei einer Figur noch etwas komisch aus (Teile, die schweben, durch den Körper gehen oder falsch sitzen)? Am besten mit Screenshot melden.
+**Worauf achten:** Fühlt sich der Start mit 3 Figuren gut an? Sind die Preise der Kauf-Figuren okay? Ist die neue Auszeichnungen-Seite übersichtlich?
