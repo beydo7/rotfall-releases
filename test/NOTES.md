@@ -1,15 +1,27 @@
-**Neue Freischalt-Reihenfolge + Auszeichnungen neu gestaltet (Test)**
+**Fehlercheck vor dem nächsten Release (Test)**
 
-- **Zum Start:** Erik Brandt, Dr. Ilse Varga und Pjotr Volkov
-- **Mit Splittern kaufen:** Champurai (500 ◆), Krümel (750 ◆), Johnny Fuzz (1000 ◆), Double D (1250 ◆), Delulu (1500 ◆)
-- **Alle anderen** über Auszeichnungen
-- **Wer schon gespielt hat,** behält Delulu, Champurai und Double D. Krümel und Johnny bleiben ebenfalls, wenn ihr sie schon freigespielt hattet.
-- **Dr. Nadja Orlowa** gibt es jetzt über „Roter Mond“: insgesamt 3 Blutmond-Nächte überstehen
-- **Bademeister Horst:** Die Beschreibung sagt jetzt, welche Waffen zählen. Schrotflinte und E-Gitarre zählen ab sofort auch.
-- **Auszeichnungen-Seite komplett neu:**
-  - Orden mit Band und Bronze/Silber/Gold, nach Themen sortiert
-  - Fortschrittsbalken (z. B. 3 von 7 Gartenzwergen) und Filter (Offen / Erreicht / Schalten Figuren frei)
-  - Bild der Figur, die man damit freischaltet, und ein „NEU“-Stempel für frisch erreichte Auszeichnungen
-- **Bademeister Horst** stemmt jetzt richtig die Hände in die Hüften (vorher zeigten die Ellbogen nach innen)
+Alles aus den letzten Testversionen ist drin: neue Charaktere, Stellungen mit Fallen, Rundwege und neue Freischalt-Reihenfolge. Dazu diese Korrekturen:
 
-**Worauf achten:** Fühlt sich der Start mit 3 Figuren gut an? Sind die Preise der Kauf-Figuren okay? Ist die neue Auszeichnungen-Seite übersichtlich?
+- **Wolfsgrund:** Bei der Evakuierung landete ein Flugzeug auf dem zugefrorenen See. Jetzt kommt wieder der Hubschrauber.
+- **Stellungen:**
+  - Von oben trifft man jetzt auch Zombies direkt unten an der Mauer, die Schüsse bleiben nicht mehr an der Brüstung hängen.
+  - Die Schrotflinte zielt von oben richtig nach unten.
+- **Fallen:**
+  - Bosse bleiben nicht mehr die ganze Zeit wie eingefroren stehen.
+  - Riesen werden vom Dampf nicht mehr zerfetzt.
+- **Koop:**
+  - Die Nachschubkiste oben bleibt beim Mitspieler gleich lange liegen.
+  - Hauptmann Vogts schnellere Evakuierung läuft bei beiden gleich.
+  - Major Haases frühe Befehle laufen bei beiden gleich.
+  - Gerd und sein Gefolge werden vom Mitspieler nicht mehr beschossen.
+- **Tick (Zeit angehalten):** Warnkreise von Einschlägen warten jetzt auch – nichts schlägt mehr ohne Warnung ein.
+- **Auszeichnungen:**
+  - „Verkäufer des Monats“ zählt keinen übrigen Schrott aus dem letzten Einsatz mehr mit.
+  - „Gack!“ zählt nur echte Explosionen.
+  - „Badeschluss“ zählt nur die genannten Waffen.
+- **Kleinkram:**
+  - Kalles Sprechblase hängt nicht mehr über Menüs.
+  - Die veredelte Schwimmnudel färbt nicht mehr andere Nudeln rot.
+  - Gerds Wiederverwertung heilt im neuen Einsatz sofort.
+
+**Worauf achten:** Läuft alles rund, bevor wir veröffentlichen? Vor allem Wolfsgrund-Evakuierung, Stellungen und Koop.
