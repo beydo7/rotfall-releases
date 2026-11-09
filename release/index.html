@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROTFALL herunterladen – Windows</title>
+<meta name="description" content="ROTFALL für Windows herunterladen: kostenloses 3D-Zombie-Survival-Roguelite im Kalten Krieg 1968.">
+<meta property="og:title" content="ROTFALL – Download für Windows">
+<meta property="og:description" content="Halte zwanzig Wellen durch. Dann kommt der Helikopter. Kostenlos, keine Anmeldung.">
+<meta property="og:image" content="https://beydo7.github.io/rotfall-releases/media/site/hero.jpg">
+<link rel="icon" href="../media/site/icon.png">
+<link rel="stylesheet" href="../media/site/site.css">
+<style>
+.dl { padding: 56px 0 30px; background: radial-gradient(ellipse at 70% 0%, rgba(200,40,58,.18), transparent 60%); }
+.dl .wrap { display: grid; gap: 40px; grid-template-columns: 1.1fr 1fr; align-items: center; }
+.dl img.shot { width: 100%; border-radius: 14px; border: 1px solid var(--line); box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.dl h1 { font-size: clamp(40px, 6vw, 64px); line-height: 1; margin: 6px 0 14px; }
+.meta { margin: 16px 0 0; color: var(--mute); font-size: 16px; }
+.meta span + span::before { content: "·"; margin: 0 8px; }
+@media (max-width: 860px) { .dl .wrap { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../"><img src="../media/site/icon.png" alt="">ROTFALL</a>
+  <nav>
+    <a href="../play/">Im Browser spielen</a>
+    <a class="on" href="./">Download</a>
+    <a class="hide-s" href="../test/">Playtest</a>
+    <a href="https://discord.gg/6yuVzSg8vg">Discord</a>
+  </nav>
+</div></header>
+
+<section class="dl"><div class="wrap">
+  <div>
+    <div class="kicker">Windows · kostenlos</div>
+    <h1>ROTFALL herunterladen</h1>
+    <p class="lead">Ein Download, entpacken, loslegen. Keine Installation, keine Anmeldung.</p>
+    <div class="btns" style="margin-top:26px">
+      <a id="dl" class="btn red big" href="https://github.com/beydo7/rotfall-releases/releases/latest">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zm8.4 1.2L21 21v-8.4h-9.6v7.1zm0-15.4v7.2H21V3l-9.6 1.3z"/></svg>
+        <span>Für Windows laden<small id="dlsub">Neueste Version</small></span>
+      </a>
+      <a class="btn ghost" href="../play/">Lieber im Browser spielen</a>
+    </div>
+    <p class="meta" id="meta"><span>Windows 10 / 11 (64-Bit)</span></p>
+  </div>
+  <img class="shot" src="../media/site/hero.jpg" alt="Szene aus ROTFALL">
+</div></section>
+
+<section><div class="wrap">
+  <div class="kicker">In drei Schritten</div>
+  <h2>So startest du ROTFALL</h2>
+  <div class="steps">
+    <div class="card"><h3>ZIP laden</h3><p>Oben auf „Für Windows laden“ klicken.</p></div>
+    <div class="card"><h3>Entpacken</h3><p>Rechtsklick auf die ZIP-Datei → „Alle extrahieren“.</p></div>
+    <div class="card"><h3>ROTFALL.exe starten</h3><p>Warnt Windows („Der Computer wurde geschützt“): „Weitere Informationen“ → „Trotzdem ausführen“.</p></div>
+  </div>
+  <p class="lead" style="margin-top:20px;font-size:17px">Neue Version? Einfach die neue ZIP entpacken und die alte löschen. Dein Fortschritt liegt getrennt vom Spiel und bleibt erhalten.</p>
+</div></section>
+
+<section style="padding-top:20px"><div class="wrap">
+  <div class="kicker">Technik</div>
+  <h2>Systemanforderungen</h2>
+  <table class="spec">
+    <tr><th></th><th>Mindestens</th><th>Empfohlen</th></tr>
+    <tr><td>System</td><td>Windows 10 (64-Bit)</td><td>Windows 10 / 11 (64-Bit)</td></tr>
+    <tr><td>Grafik</td><td id="gpuMin">Grafikkarte mit Vulkan-Unterstützung</td><td id="gpuRec">wird gerade gemessen</td></tr>
+    <tr><td>Prozessor</td><td id="cpuMin">wird gerade gemessen</td><td id="cpuRec">wird gerade gemessen</td></tr>
+    <tr><td>Arbeitsspeicher</td><td id="ramMin">wird gerade gemessen</td><td id="ramRec">wird gerade gemessen</td></tr>
+    <tr><td>Speicherplatz</td><td>300 MB</td><td>300 MB</td></tr>
+  </table>
+  <p class="notes" style="margin-top:14px">Im Spiel unter <b>Optionen → Grafik → „Leistungstest starten“</b> prüft ROTFALL in etwa sechs Minuten, wie gut es auf deinem PC läuft.</p>
+</div></section>
+
+<section id="notes-sec" style="padding-top:20px" hidden><div class="wrap">
+  <div class="kicker">Was ist neu</div>
+  <h2 id="notes-title">Patchnotes</h2>
+  <div class="card notes" id="notes"></div>
+  <p style="margin-top:14px"><a href="https://github.com/beydo7/rotfall-releases/releases">Alle Versionen ansehen →</a></p>
+</div></section>
+
+<footer><div class="wrap">
+  <span>ROTFALL · ein Spiel von Pascal (Beyd)</span>
+  <nav>
+    <a href="https://github.com/beydo7/rotfall-releases">GitHub</a>
+    <a href="https://github.com/beydo7/rotfall-releases/issues/new/choose">Fehler melden</a>
+    <a href="https://discord.gg/6yuVzSg8vg">Discord</a>
+  </nav>
+</div></footer>
+
+<script>
+// Neueste Version von GitHub holen: direkter Download-Link, Größe, Datum, Patchnotes
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function md(src) {
+  const out = []; let list = false;
+  const inline = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`(.+?)`/g, '<code>$1</code>')
+    .replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2">$1</a>');
+  for (const raw of src.split(/\r?\n/)) {
+    const l = raw.trimEnd();
+    const li = l.match(/^\s*[-*]\s+(.*)$/);
+    if (li) { if (!list) { out.push('<ul>'); list = true; } out.push('<li>' + inline(li[1]) + '</li>'); continue; }
+    if (list) { out.push('</ul>'); list = false; }
+    const h = l.match(/^(#{1,3})\s+(.*)$/);
+    if (h) out.push('<h3>' + inline(h[2]) + '</h3>');
+    else if (l.trim()) out.push('<p>' + inline(l) + '</p>');
+  }
+  if (list) out.push('</ul>');
+  return out.join('');
+}
+fetch('https://api.github.com/repos/beydo7/rotfall-releases/releases/latest').then((r) => r.ok ? r.json() : null).then((rel) => {
+  if (!rel) return;
+  const win = (rel.assets || []).find((a) => /windows.*\.zip$/i.test(a.name));
+  const ver = (rel.tag_name || '').replace(/\.0$/, '');
+  if (win) {
+    document.getElementById('dl').href = win.browser_download_url;
+    document.getElementById('dlsub').textContent = `${ver} · ${(win.size / 1048576).toFixed(0)} MB`;
+  }
+  const d = new Date(rel.published_at);
+  const meta = document.getElementById('meta');
+  meta.insertAdjacentHTML('afterbegin', `<span>Version ${esc(ver)}</span><span>vom ${d.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>`);
+  if (rel.body) {
+    const body = rel.body.split(/\n## Download/)[0];
+    document.getElementById('notes').innerHTML = md(body);
+    document.getElementById('notes-title').textContent = rel.name || 'Patchnotes';
+    document.getElementById('notes-sec').hidden = false;
+  }
+}).catch(() => {});
+</script>
+</body>
+</html>

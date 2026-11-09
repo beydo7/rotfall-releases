@@ -91,17 +91,17 @@ async function release() {
   const win = rel.assets.find((a) => /windows/i.test(a.name));
   const web = rel.assets.find((a) => /browser/i.test(a.name));
   const fields = [];
-  if (win) fields.push({ name: '🪟 Windows', value: `**[${win.name}](${win.browser_download_url})** · ${mb(win.size)}\nEntpacken (Rechtsklick → „Alle extrahieren“) → \`ROTFALL.exe\` starten.\nWarnt Windows: „Weitere Informationen“ → „Trotzdem ausführen“.` });
+  if (win) fields.push({ name: '🪟 Windows', value: `**[${win.name}](${win.browser_download_url})** · ${mb(win.size)}\nEntpacken (Rechtsklick → „Alle extrahieren“) → \`ROTFALL.exe\` starten.\nWarnt Windows: „Weitere Informationen“ → „Trotzdem ausführen“.\nAlles zum Download: [Download-Seite](${PAGES}/release/)` });
   fields.push({ name: '🌐 Direkt im Browser spielen', value: `**[Jetzt spielen](${PAGES}/play/)** – nichts installieren, läuft in Chrome und Edge.` });
   if (web) fields.push({ name: '📦 Browser-Version zum Mitnehmen', value: `[${web.name}](${web.browser_download_url}) · ${mb(web.size)} – entpacken, \`ROTFALL.html\` öffnen.` });
   fields.push({ name: '📜 Was ist neu?', value: `[Patchnotes ${ver}](${rel.html_url}) · [Alle Versionen](https://github.com/${REPO}/releases)` });
   await send('DISCORD_DOWNLOAD', { embeds: [{
     color: ROT,
     title: `🎮 ROTFALL ${ver} – jetzt herunterladen`,
-    url: rel.html_url,
+    url: `${PAGES}/release/`,
     description: 'Dein Fortschritt bleibt beim Update erhalten.',
     fields,
-    image: { url: `${PAGES}/media/readme/hero.jpg` },
+    image: { url: `${PAGES}/media/site/hero.jpg` },
     footer: FOOTER,
     timestamp: rel.published_at || new Date().toISOString(),
   }] });
