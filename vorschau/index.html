@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<title>ROTFALL</title>
+<meta name="description" content="ROTFALL – Zombie-Survival-Roguelite, Kalter Krieg 1968. Halte zwanzig Wellen durch. Dann kommt der Helikopter.">
+<style>
+html, body, #canvas { margin: 0; padding: 0; border: 0; }
+body { color: #e8dcc0; background: #0b0908; overflow: hidden; touch-action: none; font-family: "Barlow Condensed", "Arial Narrow", "Segoe UI", sans-serif; }
+#canvas { display: block; }
+#canvas:focus { outline: none; }
+#status { position: absolute; inset: 0; display: flex; justify-content: center; align-items: center; visibility: hidden;
+  background: radial-gradient(ellipse at 50% 40%, #2a1210 0%, #0b0908 70%); }
+#status-splash { display: none; }
+.box { width: min(560px, 86vw); display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
+.logo { font: 900 clamp(56px, 11vw, 112px)/0.9 Impact, "Oswald", "Arial Narrow", sans-serif; letter-spacing: .06em; color: #efe4c8;
+  text-shadow: 0 0 40px rgba(200, 40, 58, .35); }
+.logo b { color: #c8283a; font-weight: inherit; }
+.tag { font-size: 15px; letter-spacing: .28em; text-transform: uppercase; color: #a8957a; }
+#status-progress { width: 100%; height: 6px; background: rgba(255,255,255,.08); border-radius: 3px; overflow: hidden; }
+#status-progress i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #8f2c2c, #c8283a, #d9a441); transition: width .2s; }
+#status-progress.wait i { width: 35%; animation: wait 1.2s ease-in-out infinite; }
+@keyframes wait { 0% { transform: translateX(-100%); } 100% { transform: translateX(290%); } }
+.hint { font-size: 14px; color: #8a7a64; line-height: 1.5; }
+#status-notice { display: none; background: #3a1212; border: 1px solid #c8283a; border-radius: 6px; padding: 14px 18px; font-size: 15px; line-height: 1.5; }
+</style>
+<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+
+</head>
+<body>
+<canvas id="canvas">Dein Browser unterstützt kein Canvas.</canvas>
+<noscript>Bitte JavaScript aktivieren. · Please enable JavaScript.</noscript>
+<div id="status">
+ <div class="box">
+  <div class="logo">ROT<b>FALL</b></div>
+  <div class="tag">Sperrzone Kessel 9 · 1968</div>
+  <div class="box" style="gap:10px">
+   <div id="status-progress" class="wait"><i></i></div>
+   <div class="hint">Wird geladen … · Loading …<br>Beim ersten Start etwa 50 MB, danach geht es schneller.<br>Am besten in Chrome oder Edge spielen.</div>
+  </div>
+  <div id="status-notice"></div>
+ </div>
+ <img id="status-splash" src="index.png" alt="">
+</div>
+<script src="index.js"></script>
+		<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":7416488,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_THREADS_ENABLED = false;
+const engine = new Engine(GODOT_CONFIG);
+
+(function () {
+	const statusOverlay = document.getElementById('status');
+	const statusProgress = document.getElementById('status-progress');
+	const statusNotice = document.getElementById('status-notice');
+
+	let initializing = true;
+	let statusMode = '';
+
+	function setStatusMode(mode) {
+		if (statusMode === mode || !initializing) {
+			return;
+		}
+		if (mode === 'hidden') {
+			statusOverlay.remove();
+			initializing = false;
+			return;
+		}
+		statusOverlay.style.visibility = 'visible';
+		statusProgress.parentElement.style.display = mode === 'progress' ? 'flex' : 'none';
+		statusNotice.style.display = mode === 'notice' ? 'block' : 'none';
+		statusMode = mode;
+	}
+
+	function setStatusNotice(text) {
+		while (statusNotice.lastChild) {
+			statusNotice.removeChild(statusNotice.lastChild);
+		}
+		const lines = text.split('\n');
+		lines.forEach((line) => {
+			statusNotice.appendChild(document.createTextNode(line));
+			statusNotice.appendChild(document.createElement('br'));
+		});
+	}
+
+	function displayFailureNotice(err) {
+		console.error(err);
+		if (err instanceof Error) {
+			setStatusNotice(err.message);
+		} else if (typeof err === 'string') {
+			setStatusNotice(err);
+		} else {
+			setStatusNotice('An unknown error occurred.');
+		}
+		setStatusMode('notice');
+		initializing = false;
+	}
+
+	const missing = Engine.getMissingFeatures({
+		threads: GODOT_THREADS_ENABLED,
+	});
+
+	if (missing.length !== 0) {
+		if (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {
+			let serviceWorkerRegistrationPromise;
+			try {
+				serviceWorkerRegistrationPromise = navigator.serviceWorker.getRegistration();
+			} catch (err) {
+				serviceWorkerRegistrationPromise = Promise.reject(new Error('Service worker registration failed.'));
+			}
+			// There's a chance that installing the service worker would fix the issue
+			Promise.race([
+				serviceWorkerRegistrationPromise.then((registration) => {
+					if (registration != null) {
+						return Promise.reject(new Error('Service worker already exists.'));
+					}
+					return registration;
+				}).then(() => engine.installServiceWorker()),
+				// For some reason, `getRegistration()` can stall
+				new Promise((resolve) => {
+					setTimeout(() => resolve(), 2000);
+				}),
+			]).then(() => {
+				// Reload if there was no error.
+				window.location.reload();
+			}).catch((err) => {
+				console.error('Error while registering service worker:', err);
+			});
+		} else {
+			// Display the message as usual
+			const missingMsg = 'Error\nThe following features required to run Godot projects on the Web are missing:\n';
+			displayFailureNotice(missingMsg + missing.join('\n'));
+		}
+	} else {
+		setStatusMode('progress');
+		engine.startGame({
+			'onProgress': function (current, total) {
+				if (current > 0 && total > 0) {
+					statusProgress.classList.remove('wait');
+					statusProgress.firstElementChild.style.width = (100 * current / total).toFixed(1) + '%';
+				} else {
+					statusProgress.classList.add('wait');
+				}
+			},
+		}).then(() => {
+			setStatusMode('hidden');
+		}, displayFailureNotice);
+	}
+}());
+		</script>
+	</body>
+</html>
+
