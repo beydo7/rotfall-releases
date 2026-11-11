@@ -158,6 +158,17 @@ async function youtubeFeed() {
   return `https://www.youtube.com/feeds/videos.xml?channel_id=${id}`;
 }
 
+// Liste der neuesten Hauptvideos (ohne Shorts) für die Linkseite (links/) → videos.json im Zweig discord-state
+function writeVideoList(items, feedUrl) {
+  const vids = items.filter((i) => !i.link.includes('/shorts/')).sort((a, b) => b.date - a.date).slice(0, 8)
+    .map((i) => ({ id: i.id, title: i.title, date: new Date(i.date).toISOString() }));
+  const prev = existsSync('videos.json') ? JSON.parse(readFileSync('videos.json', 'utf8')) : {};
+  if (JSON.stringify(prev.videos) === JSON.stringify(vids)) return;
+  const channel = env('YOUTUBE_URL') || (env('YOUTUBE').startsWith('@') ? `https://www.youtube.com/${env('YOUTUBE')}` : prev.channel || 'https://www.youtube.com/@beydo7');
+  writeFileSync('videos.json', JSON.stringify({ updated: new Date().toISOString(), channel, videos: vids }, null, 1));
+  console.log(`videos.json: ${vids.length} Videos`);
+}
+
 async function social() {
   const state = existsSync('state.json') ? JSON.parse(readFileSync('state.json', 'utf8')) : {};
   const sources = [
@@ -171,6 +182,7 @@ async function social() {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       items = parseFeed(await r.text());
     } catch (e) { console.log(`⚠️ ${s.key}: Feed nicht lesbar (${e.message}) – nächstes Mal wieder`); continue; }
+    if (s.key === 'youtube') writeVideoList(items, s.url);
     const seen = new Set(state[s.key] || []);
     if (!state[s.key]) {
       // Erster Lauf: alles Vorhandene merken, nichts posten (kein Spam mit alten Videos)

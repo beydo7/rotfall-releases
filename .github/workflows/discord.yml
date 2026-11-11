@@ -1,7 +1,7 @@
 # ROTIUM Funker: schickt Neuigkeiten automatisch in den Discord.
 # - neues Release      → Patchnotes (#patchnotes) + Download-Link (#download)
 # - Push nach test/    → Testaufruf (#playtest); Text aus test/NOTES.md, sonst Commit-Nachricht
-# - regelmäßig        → neue YouTube-Videos und Shorts (#videos)
+# - regelmäßig        → neue YouTube-Videos und Shorts (#videos) + videos.json für die Linkseite links/
 # Secrets:   DISCORD_PATCHNOTES, DISCORD_DOWNLOAD, DISCORD_PLAYTEST, DISCORD_VIDEOS (Webhook-Adressen)
 # Variables: YOUTUBE (@Handle oder Kanal-ID),
 #            ROLE_PATCH, ROLE_PLAYTEST, ROLE_VIDEOS (Rollen-IDs zum Pingen, optional)
@@ -61,14 +61,16 @@ jobs:
         if: steps.was.outputs.cmd == 'social'
         run: |
           git fetch -q origin discord-state 2>/dev/null && git show origin/discord-state:state.json > state.json || echo '{}' > state.json
-          cp state.json state.alt.json
+          git show origin/discord-state:videos.json > videos.json 2>/dev/null || rm -f videos.json
+          cp state.json state.alt.json; cp videos.json videos.alt.json 2>/dev/null || true
       - name: Senden
         run: node .github/discord/funker.mjs ${{ steps.was.outputs.cmd }}
       - name: Zustand speichern
         if: steps.was.outputs.cmd == 'social'
         run: |
-          if cmp -s state.json state.alt.json; then echo "nichts Neues"; exit 0; fi
-          mkdir st && cp state.json st/ && cd st
-          git init -q && git add state.json
+          same() { { [ ! -e "$1" ] && [ ! -e "$2" ]; } || cmp -s "$1" "$2"; }
+          if same state.json state.alt.json && same videos.json videos.alt.json; then echo "nichts Neues"; exit 0; fi
+          mkdir st && cp state.json st/ && (cp videos.json st/ 2>/dev/null || true) && cd st
+          git init -q && git add .
           git -c user.name="ROTIUM Funker" -c user.email="funker@users.noreply.github.com" commit -qm "Discord-Zustand"
           git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:discord-state
