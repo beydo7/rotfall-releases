@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Danke, dass du hilfst, ROTFALL besser zu machen! 🧟
+        Danke, dass du hilfst, ROTIUM besser zu machen! 🧟
         **Tipp:** Drück im Spiel **F8** (oder im Pausemenü „Fehler melden“). Das kopiert einen Fehlerbericht in die Zwischenablage – einfach unten einfügen.
   - type: textarea
     id: was
@@ -32,8 +32,8 @@ body:
     attributes:
       label: Welche Version spielst du?
       options:
-        - Windows (ROTFALL.exe)
-        - Browser (ROTFALL.html)
+        - Windows (ROTIUM.exe)
+        - Browser (ROTIUM.html)
     validations:
       required: true
   - type: dropdown

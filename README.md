@@ -1,16 +1,18 @@
-<a href="https://beydo7.github.io/rotfall-releases/release/"><img src="media/v4/hero.jpg" alt="ROTFALL – Halte zwanzig Wellen durch. Dann kommt der Helikopter." width="100%"></a>
+<a href="https://beydo7.github.io/rotium-releases/release/"><img src="media/v4/hero.jpg" alt="ROTIUM – Halte zwanzig Wellen durch. Dann kommt der Helikopter." width="100%"></a>
 
 <p align="center">
-  <a href="https://beydo7.github.io/rotfall-releases/release/"><img src="media/readme/btn-win.png" alt="Für Windows laden" height="58"></a>&nbsp;&nbsp;
-  <a href="https://beydo7.github.io/rotfall-releases/play/"><img src="media/readme/btn-play.png" alt="Im Browser spielen" height="58"></a>
+  <a href="https://beydo7.github.io/rotium-releases/release/"><img src="media/readme/btn-win.png" alt="Für Windows laden" height="58"></a>&nbsp;&nbsp;
+  <a href="https://beydo7.github.io/rotium-releases/play/"><img src="media/readme/btn-play.png" alt="Im Browser spielen" height="58"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/beydo7/rotfall-releases/releases/latest"><img src="https://img.shields.io/github/v/release/beydo7/rotfall-releases?label=VERSION&style=for-the-badge&color=c8283a&labelColor=1a1410&cacheSeconds=600" alt="Version"></a>
-  <a href="https://github.com/beydo7/rotfall-releases/releases"><img src="https://img.shields.io/github/downloads/beydo7/rotfall-releases/total?label=DOWNLOADS&style=for-the-badge&color=d9a441&labelColor=1a1410" alt="Downloads"></a>
+  <a href="https://github.com/beydo7/rotium-releases/releases/latest"><img src="https://img.shields.io/github/v/release/beydo7/rotium-releases?label=VERSION&style=for-the-badge&color=c8283a&labelColor=1a1410&cacheSeconds=600" alt="Version"></a>
+  <a href="https://github.com/beydo7/rotium-releases/releases"><img src="https://img.shields.io/github/downloads/beydo7/rotium-releases/total?label=DOWNLOADS&style=for-the-badge&color=d9a441&labelColor=1a1410" alt="Downloads"></a>
   <a href="https://discord.gg/6yuVzSg8vg"><img src="https://img.shields.io/badge/DISCORD-Komm_rein-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1410" alt="Discord"></a>
   <a href="https://tiktok.com/@beydyoyo"><img src="https://img.shields.io/badge/TIKTOK-@beydyoyo-ff3b5c?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1a1410" alt="TikTok"></a>
 </p>
+
+<p align="center"><sub>🔁 <b>ROTIUM hieß bis November 2026 ROTFALL.</b> Gleiches Spiel, neuer Name – dein Fortschritt kommt automatisch mit.</sub></p>
 
 <br>
 
@@ -34,14 +36,14 @@
 <summary>🇬🇧 <b>English summary</b></summary>
 <br>
 
-**ROTFALL** is a free 3D zombie survival roguelite set in the Cold War, autumn 1968. Think *Megabonk* meets the zombie mode of *Call of Duty*: your weapons fire on their own – you run, dodge, loot, upgrade and make the calls. Survive 20 waves, power up the generators, forge your weapons, then hold the landing zone until the helicopter arrives. And whatever you do: listen to Echo. Mostly.
+**ROTIUM** is a free 3D zombie survival roguelite set in the Cold War, autumn 1968. Think *Megabonk* meets the zombie mode of *Call of Duty*: your weapons fire on their own – you run, dodge, loot, upgrade and make the calls. Survive 20 waves, power up the generators, forge your weapons, then hold the landing zone until the helicopter arrives. And whatever you do: listen to Echo. Mostly.
 
 - **25 characters** – from a sergeant to a radioactive raccoon, a knitting grandma and a five-star chicken general
 - **31 weapons**, each with 5 levels, forging and its own evolution
 - **7 maps** plus a final level with three endings, daily orders, threat levels and a camp to upgrade
 - Online **co-op** for two via Steam (Windows), controller support, 8 languages
 
-[Download for Windows](https://beydo7.github.io/rotfall-releases/release/) · [Play in your browser](https://beydo7.github.io/rotfall-releases/play/) · Language: **Options → Display → „Sprache · Language“**
+[Download for Windows](https://beydo7.github.io/rotium-releases/release/) · [Play in your browser](https://beydo7.github.io/rotium-releases/play/) · Language: **Options → Display → „Sprache · Language“**
 </details>
 
 <p align="center"><img src="media/v4/divider.svg" width="100%" alt=""></p>
@@ -229,7 +231,7 @@ Jede Karte hat ihren eigenen Grundriss, ihr eigenes Wetter, ihren eigenen Zombie
   <br><sub><b>Links</b> die alte Version, <b>rechts</b> dieselbe Stelle heute.</sub>
 </p>
 
-Mit **v3.0** ist ROTFALL komplett auf die **Godot-Engine** umgezogen – jede Figur, jede Waffe, jede Karte, jeder Knopf. Das Ergebnis:
+Mit **v3.0** ist ROTIUM komplett auf die **Godot-Engine** umgezogen – jede Figur, jede Waffe, jede Karte, jeder Knopf. Das Ergebnis:
 
 - 🎨 **Detailliertere Welt:** Figuren mit weicheren Formen, Zombies mit Rippen und Adern, Karten mit Boden-Mischung, Gras, Streu-Deko und echtem Wasser
 - 💡 **Echtes Licht:** Laternen, Suchscheinwerfer, Glühen bei Explosionen, Schatten
@@ -248,21 +250,21 @@ Mit **v3.0** ist ROTFALL komplett auf die **Godot-Engine** umgezogen – jede Fi
 
 ### 🪟 Windows
 **Empfohlen.** Volle Grafik, Koop.<br><br>
-<a href="https://beydo7.github.io/rotfall-releases/release/"><img src="media/readme/btn-win.png" alt="Für Windows laden" height="48"></a>
-<br><sub>ZIP laden · entpacken · <code>ROTFALL.exe</code></sub>
+<a href="https://beydo7.github.io/rotium-releases/release/"><img src="media/readme/btn-win.png" alt="Für Windows laden" height="48"></a>
+<br><sub>ZIP laden · entpacken · <code>ROTIUM.exe</code></sub>
 </td>
 <td align="center" width="33%">
 
 ### 🌐 Browser
 Ohne Download, sofort los.<br><br>
-<a href="https://beydo7.github.io/rotfall-releases/play/"><img src="media/readme/btn-play.png" alt="Im Browser spielen" height="48"></a>
+<a href="https://beydo7.github.io/rotium-releases/play/"><img src="media/readme/btn-play.png" alt="Im Browser spielen" height="48"></a>
 <br><sub>Am besten in Chrome oder Edge</sub>
 </td>
 <td align="center" width="33%">
 
 ### 🧪 Playtest
 Das nächste Update vorab.<br><br>
-<a href="https://beydo7.github.io/rotfall-releases/test/"><b>Testversion öffnen →</b></a>
+<a href="https://beydo7.github.io/rotium-releases/test/"><b>Testversion öffnen →</b></a>
 <br><br><sub>Kann Fehler enthalten – genau dafür ist sie da</sub>
 </td>
 </tr>
@@ -271,7 +273,7 @@ Das nächste Update vorab.<br><br>
 > [!TIP]
 > Warnt Windows mit *„Der Computer wurde durch Windows geschützt“*? **„Weitere Informationen“ → „Trotzdem ausführen“.** Das Spiel ist nur noch nicht signiert. Dein Fortschritt bleibt bei jedem Update erhalten.
 
-**Läuft das auf meinem PC?** Im Spiel unter **Optionen → Grafik → „Leistungstest starten“** misst ROTFALL in etwa sechs Minuten, wie gut es läuft. Schick dein Ergebnis gern in den [Discord](https://discord.gg/6yuVzSg8vg) – daraus entstehen gerade die offiziellen Systemanforderungen.
+**Läuft das auf meinem PC?** Im Spiel unter **Optionen → Grafik → „Leistungstest starten“** misst ROTIUM in etwa sechs Minuten, wie gut es läuft. Schick dein Ergebnis gern in den [Discord](https://discord.gg/6yuVzSg8vg) – daraus entstehen gerade die offiziellen Systemanforderungen.
 
 <p align="center"><img src="media/v4/divider.svg" width="100%" alt=""></p>
 
@@ -305,7 +307,7 @@ Das nächste Update vorab.<br><br>
 <summary><b>Was kostet das Spiel?</b></summary>
 <br>
 
-Nichts. ROTFALL ist während der Entwicklung kostenlos – als Windows-Version und im Browser. Keine Anmeldung, keine Werbung, keine Haken.
+Nichts. ROTIUM ist während der Entwicklung kostenlos – als Windows-Version und im Browser. Keine Anmeldung, keine Werbung, keine Haken.
 </details>
 
 <details>
@@ -319,7 +321,7 @@ In der Windows-Version mit gestartetem Steam: Hauptmenü → **Koop**. Einer ers
 <summary><b>Behalte ich meinen Fortschritt?</b></summary>
 <br>
 
-Ja. Bei Updates sowieso – und beim ersten Start der Godot-Version holt sich ROTFALL automatisch alles aus der alten Version: Figuren, Skins, Splitter, Auszeichnungen, Lager und Rekorde.
+Ja. Bei Updates sowieso – und beim ersten Start der Godot-Version holt sich ROTIUM automatisch alles aus der alten Version: Figuren, Skins, Splitter, Auszeichnungen, Lager und Rekorde.
 </details>
 
 <details>
@@ -330,7 +332,7 @@ Ja, und in sechs weiteren Sprachen: **Deutsch · English · Español · Françai
 </details>
 
 <details>
-<summary><b>Kommt ROTFALL auf Steam?</b></summary>
+<summary><b>Kommt ROTIUM auf Steam?</b></summary>
 <br>
 
 Das ist das große Ziel. Bis dahin wird hier jede neue Version zuerst getestet – von euch.
@@ -340,7 +342,7 @@ Das ist das große Ziel. Bis dahin wird hier jede neue Version zuerst getestet �
 <summary><b>Ich habe einen Fehler gefunden oder eine Idee.</b></summary>
 <br>
 
-Super! Im Spiel **F8** drücken – das kopiert einen Fehlerbericht in die Zwischenablage. Dann hier ein [Issue anlegen](https://github.com/beydo7/rotfall-releases/issues/new/choose) (Vorlagen „Fehler“ und „Idee“) oder im [Discord](https://discord.gg/6yuVzSg8vg) melden. Jede Meldung wird gelesen.
+Super! Im Spiel **F8** drücken – das kopiert einen Fehlerbericht in die Zwischenablage. Dann hier ein [Issue anlegen](https://github.com/beydo7/rotium-releases/issues/new/choose) (Vorlagen „Fehler“ und „Idee“) oder im [Discord](https://discord.gg/6yuVzSg8vg) melden. Jede Meldung wird gelesen.
 </details>
 
 <p align="center"><img src="media/v4/divider.svg" width="100%" alt=""></p>
@@ -348,9 +350,9 @@ Super! Im Spiel **F8** drücken – das kopiert einen Fehlerbericht in die Zwisc
 <a id="akte-09"></a>
 <img src="media/v4/h-tagebuch.svg" width="100%" alt="Akte 09 – Entwickler-Tagebuch">
 
-> ROTFALL ist mein Hobbyprojekt. Angefangen hat es mit einer einfachen Frage: *Wie würde sich Megabonk anfühlen, wenn man es mit den Zombie-Karten aus Call of Duty kreuzt – und alles im Kalten Krieg spielt?*
+> ROTIUM ist mein Hobbyprojekt. Angefangen hat es mit einer einfachen Frage: *Wie würde sich Megabonk anfühlen, wenn man es mit den Zombie-Karten aus Call of Duty kreuzt – und alles im Kalten Krieg spielt?*
 >
-> Seitdem wächst das Spiel jeden Tag, gebaut zusammen mit KI und getestet von Freunden, die mir nach jeder Runde sagen, was nervt und was Spaß macht. Ohne euch wäre ROTFALL nicht das, was es heute ist. **Danke fürs Spielen.** 🖤
+> Seitdem wächst das Spiel jeden Tag, gebaut zusammen mit KI und getestet von Freunden, die mir nach jeder Runde sagen, was nervt und was Spaß macht. Ohne euch wäre ROTIUM nicht das, was es heute ist. **Danke fürs Spielen.** 🖤
 >
 > — *Pascal*
 
@@ -376,9 +378,9 @@ Super! Im Spiel **F8** drücken – das kopiert einen Fehlerbericht in die Zwisc
 <p align="center"><img src="media/v4/footer.svg" width="100%" alt="Hör auf Echo. Meistens."></p>
 
 <p align="center">
-  <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=1-fehler.yml"><img src="media/readme/btn-bug.png" alt="Fehler melden" height="44"></a>&nbsp;
-  <a href="https://github.com/beydo7/rotfall-releases/issues/new?template=2-idee.yml"><img src="media/readme/btn-idea.png" alt="Idee einreichen" height="44"></a>&nbsp;
+  <a href="https://github.com/beydo7/rotium-releases/issues/new?template=1-fehler.yml"><img src="media/readme/btn-bug.png" alt="Fehler melden" height="44"></a>&nbsp;
+  <a href="https://github.com/beydo7/rotium-releases/issues/new?template=2-idee.yml"><img src="media/readme/btn-idea.png" alt="Idee einreichen" height="44"></a>&nbsp;
   <a href="https://discord.gg/6yuVzSg8vg"><img src="media/readme/btn-discord.png" alt="Discord" height="44"></a>
 </p>
 
-<p align="center"><sub>Mit 🖤 und viel Rotium gebaut · ROTFALL ist ein Hobbyprojekt von Pascal</sub></p>
+<p align="center"><sub>Mit 🖤 und viel Rotium gebaut · ROTIUM ist ein Hobbyprojekt von Pascal</sub></p>

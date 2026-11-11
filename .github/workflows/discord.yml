@@ -1,4 +1,4 @@
-# ROTFALL Funker: schickt Neuigkeiten automatisch in den Discord.
+# ROTIUM Funker: schickt Neuigkeiten automatisch in den Discord.
 # - neues Release      → Patchnotes (#patchnotes) + Download-Link (#download)
 # - Push nach test/    → Testaufruf (#playtest); Text aus test/NOTES.md, sonst Commit-Nachricht
 # - regelmäßig        → neue YouTube-Videos und Shorts (#videos)
@@ -70,5 +70,5 @@ jobs:
           if cmp -s state.json state.alt.json; then echo "nichts Neues"; exit 0; fi
           mkdir st && cp state.json st/ && cd st
           git init -q && git add state.json
-          git -c user.name="ROTFALL Funker" -c user.email="funker@users.noreply.github.com" commit -qm "Discord-Zustand"
+          git -c user.name="ROTIUM Funker" -c user.email="funker@users.noreply.github.com" commit -qm "Discord-Zustand"
           git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:discord-state

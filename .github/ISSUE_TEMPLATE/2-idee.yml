@@ -28,7 +28,7 @@ body:
   - type: dropdown
     id: spass
     attributes:
-      label: Wie viel Spaß macht dir ROTFALL gerade?
+      label: Wie viel Spaß macht dir ROTIUM gerade?
       options:
         - "🔥 Richtig viel"
         - "🙂 Macht Spaß"

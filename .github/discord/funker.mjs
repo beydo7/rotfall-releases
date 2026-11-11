@@ -1,4 +1,4 @@
-// ROTFALL Funker – postet Neuigkeiten per Webhook in den Discord.
+// ROTIUM Funker – postet Neuigkeiten per Webhook in den Discord.
 // Aufruf (aus .github/workflows/discord.yml):
 //   node funker.mjs release   → Patchnotes + Download-Link (Ereignis „release“ oder neuestes Release)
 //   node funker.mjs playtest  → Aufruf zur neuen Testversion
@@ -8,12 +8,12 @@
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
-const REPO = process.env.GITHUB_REPOSITORY || 'beydo7/rotfall-releases';
-const PAGES = 'https://beydo7.github.io/rotfall-releases';
-const NAME = 'ROTFALL Funker';
+const REPO = process.env.GITHUB_REPOSITORY || 'beydo7/rotium-releases';
+const PAGES = 'https://beydo7.github.io/rotium-releases';
+const NAME = 'ROTIUM Funker';
 const AVATAR = `${PAGES}/media/discord/funker.png`;
 const AMBER = 0xE8A33D, ROT = 0xC0392B, GRUEN = 0x7FA043;
-const FOOTER = { text: 'PROJEKT ROTFALL · KESSEL 9 · STRENG GEHEIM' };
+const FOOTER = { text: 'PROJEKT ROTIUM · KESSEL 9 · STRENG GEHEIM' };
 const env = (k) => (process.env[k] || '').trim();
 
 // ---------- Discord ----------
@@ -81,9 +81,9 @@ async function release() {
   // 1) Patchnotes
   for (let i = 0; i < parts.length; i++) {
     const e = { color: AMBER, description: parts[i] };
-    if (i === 0) { e.title = `📝 ${rel.name || 'ROTFALL ' + ver}${title ? ' – ' + title.replace(/^Neu in v[\d.]+\s*[–-]\s*/, '') : ''}`; e.url = rel.html_url; }
+    if (i === 0) { e.title = `📝 ${rel.name || 'ROTIUM ' + ver}${title ? ' – ' + title.replace(/^Neu in v[\d.]+\s*[–-]\s*/, '') : ''}`; e.url = rel.html_url; }
     if (i === parts.length - 1) { e.footer = FOOTER; e.timestamp = rel.published_at || new Date().toISOString(); }
-    await send('DISCORD_PATCHNOTES', { content: i === 0 ? `**ROTFALL ${ver} ist da!** 🧟` : '', embeds: [e] }, i === 0 ? env('ROLE_PATCH') : null);
+    await send('DISCORD_PATCHNOTES', { content: i === 0 ? `**ROTIUM ${ver} ist da!** 🧟` : '', embeds: [e] }, i === 0 ? env('ROLE_PATCH') : null);
     await sleep(800);
   }
 
@@ -91,13 +91,13 @@ async function release() {
   const win = rel.assets.find((a) => /windows/i.test(a.name));
   const web = rel.assets.find((a) => /browser/i.test(a.name));
   const fields = [];
-  if (win) fields.push({ name: '🪟 Windows', value: `**[${win.name}](${win.browser_download_url})** · ${mb(win.size)}\nEntpacken (Rechtsklick → „Alle extrahieren“) → \`ROTFALL.exe\` starten.\nWarnt Windows: „Weitere Informationen“ → „Trotzdem ausführen“.\nAlles zum Download: [Download-Seite](${PAGES}/release/)` });
+  if (win) fields.push({ name: '🪟 Windows', value: `**[${win.name}](${win.browser_download_url})** · ${mb(win.size)}\nEntpacken (Rechtsklick → „Alle extrahieren“) → \`ROTIUM.exe\` starten.\nWarnt Windows: „Weitere Informationen“ → „Trotzdem ausführen“.\nAlles zum Download: [Download-Seite](${PAGES}/release/)` });
   fields.push({ name: '🌐 Direkt im Browser spielen', value: `**[Jetzt spielen](${PAGES}/play/)** – nichts installieren, läuft in Chrome und Edge.` });
-  if (web) fields.push({ name: '📦 Browser-Version zum Mitnehmen', value: `[${web.name}](${web.browser_download_url}) · ${mb(web.size)} – entpacken, \`ROTFALL.html\` öffnen.` });
+  if (web) fields.push({ name: '📦 Browser-Version zum Mitnehmen', value: `[${web.name}](${web.browser_download_url}) · ${mb(web.size)} – entpacken, \`ROTIUM.html\` öffnen.` });
   fields.push({ name: '📜 Was ist neu?', value: `[Patchnotes ${ver}](${rel.html_url}) · [Alle Versionen](https://github.com/${REPO}/releases)` });
   await send('DISCORD_DOWNLOAD', { embeds: [{
     color: ROT,
-    title: `🎮 ROTFALL ${ver} – jetzt herunterladen`,
+    title: `🎮 ROTIUM ${ver} – jetzt herunterladen`,
     url: `${PAGES}/release/`,
     description: 'Dein Fortschritt bleibt beim Update erhalten.',
     fields,
@@ -192,7 +192,7 @@ async function social() {
 
 // ---------- Probe ----------
 async function test() {
-  const probe = (hook, what) => send(hook, { embeds: [{ color: AMBER, title: '📻 Funkprobe', description: `Hier spricht der ROTFALL Funker. In diesem Kanal erscheinen ab jetzt: **${what}**.`, footer: FOOTER }] });
+  const probe = (hook, what) => send(hook, { embeds: [{ color: AMBER, title: '📻 Funkprobe', description: `Hier spricht der ROTIUM Funker. In diesem Kanal erscheinen ab jetzt: **${what}**.`, footer: FOOTER }] });
   await probe('DISCORD_PATCHNOTES', 'Patchnotes zu jeder neuen Version');
   await probe('DISCORD_DOWNLOAD', 'Download-Links zu jeder neuen Version');
   await probe('DISCORD_PLAYTEST', 'Aufrufe zu neuen Testversionen');
