@@ -183,6 +183,8 @@ async function social() {
       items = parseFeed(await r.text());
     } catch (e) { console.log(`⚠️ ${s.key}: Feed nicht lesbar (${e.message}) – nächstes Mal wieder`); continue; }
     if (s.key === 'youtube') writeVideoList(items, s.url);
+    // Kontrolle im Log: die neuesten Einträge im Feed
+    for (const i of items.slice(-3)) console.log(`  Feed: ${new Date(i.date).toISOString()} ${i.id} ${i.title}`);
     const seen = new Set(state[s.key] || []);
     if (!state[s.key]) {
       // Erster Lauf: alles Vorhandene merken, nichts posten (kein Spam mit alten Videos)
