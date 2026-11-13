@@ -1,6 +1,5 @@
 # ROTIUM Funker: schickt Neuigkeiten automatisch in den Discord.
 # - neues Release      → Patchnotes (#patchnotes) + Download-Link (#download)
-# - Push nach test/    → Testaufruf (#playtest); Text aus test/NOTES.md, sonst Commit-Nachricht
 # - regelmäßig        → neue YouTube-Videos und Shorts (#videos) + videos.json für die Linkseite links/
 # Secrets:   DISCORD_PATCHNOTES, DISCORD_DOWNLOAD, DISCORD_PLAYTEST, DISCORD_VIDEOS (Webhook-Adressen)
 # Variables: YOUTUBE (@Handle oder Kanal-ID),
@@ -10,9 +9,6 @@ name: Discord
 on:
   release:
     types: [published]
-  push:
-    branches: [main]
-    paths: ['test/**']
   schedule:
     - cron: '7,37 * * * *'
   workflow_dispatch:
@@ -20,7 +16,7 @@ on:
       was:
         description: 'Was senden?'
         type: choice
-        options: [test, release, playtest, social]
+        options: [test, release, social]
         default: test
 permissions:
   contents: write
@@ -53,7 +49,6 @@ jobs:
         run: |
           case "${{ github.event_name }}" in
             release) echo "cmd=release" >> "$GITHUB_OUTPUT";;
-            push) echo "cmd=playtest" >> "$GITHUB_OUTPUT";;
             schedule) echo "cmd=social" >> "$GITHUB_OUTPUT";;
             *) echo "cmd=${{ inputs.was }}" >> "$GITHUB_OUTPUT";;
           esac
